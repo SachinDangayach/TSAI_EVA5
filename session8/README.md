@@ -21,8 +21,8 @@
 
 Model gets the desired accuracy in 10 epochs. There is training and testing accuracy gap is there. I used L2 regularizer to reduce the gap along with images transformations like rotations and horizontal shift. Gap is reduced but still scope of improvement is there.
 
-** Accuracy and loss plots
+**Accuracy and loss plots**
 ![alt text](https://github.com/SachinDangayach/TSAI_EVA5/blob/master/session8/session8_plots.jpeg?raw=true)
 
-** Misclassified images
-![alt text](https://github.com/SachinDangayach/TSAI_EVA5/blob/master/session8/session8_plots.jpeg?raw=true)
+**Misclassified images**
+![alt text](https://github.com/SachinDangayach/TSAI_EVA5/blob/master/session8/session8_mis_results.jpeg?raw=true)
