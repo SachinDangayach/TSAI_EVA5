@@ -16,8 +16,8 @@
 **B. Results**
 
 1.  Parameters: 11,173,962
-2.  Best Training Accuracy in 20 epochs: 95.87%
-3.  Best Test Accuracy in 20 epochs: 87.66%
+2.  Best Training Accuracy in 25 epochs: 95.87%
+3.  Best Test Accuracy in 25 epochs: 87.66%
 4.  Total RF reached: 76*76 at the end of Conv block 4
 
 **C. Analysis**
