@@ -82,6 +82,13 @@ class Net(nn.Module):
             nn.Dropout(dropout_value)
         )
 
+        self.convblock10 = nn.Sequential(
+            nn.Conv2d(in_channels=128, out_channels=128, kernel_size=(3, 3), padding=1, bias=False),
+            nn.ReLU(),
+            nn.BatchNorm2d(128),
+            nn.Dropout(dropout_value)
+        )
+
         # # OUTPUT BLOCK
         self.gap = nn.AdaptiveAvgPool2d(output_size=(1, 1))   #nn.AvgPool2d(kernel_size=6),
 
