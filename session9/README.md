@@ -1,9 +1,9 @@
-# EVA5 Session 7 Assignment by Sachin Dangayach
+# EVA5 Session 9 Assignment by Sachin Dangayach
 
-**Advanced Convolutions**
-**GIT Link for the package**: [https://github.com/SachinDangayach/EVA5](https://github.com/SachinDangayach/EVA5)
+**Data Augmentations**
+**GIT Link for the package**: https://github.com/SachinDangayach/TSAI_EVA5/tree/master/session9
 
-**Collab Link**: https://colab.research.google.com/drive/1S0wf6mBJGQhYpkI7p38leuicX_5Mto2u?usp=sharing
+**Collab Link**: https://colab.research.google.com/drive/1HrfNQnO3PlAoEVUuLtLV2L-nHRiNVyYH?usp=sharing
 
 **A. Target**
 
