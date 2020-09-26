@@ -10,7 +10,7 @@ class Net(nn.Module):
         super(Net, self).__init__()
 
         self.convblock1 = nn.Sequential(
-            nn.Conv2d(in_channels=3, out_channels=32, kernel_size=(1, 1), padding=1, bias=False),
+            nn.Conv2d(in_channels=3, out_channels=32, kernel_size=(1, 1), padding=0, bias=False),
             nn.ReLU(),
             nn.BatchNorm2d(32),
             nn.Dropout(dropout_value)
@@ -36,7 +36,7 @@ class Net(nn.Module):
         )
 
         self.convblock4 = nn.Sequential(
-            nn.Conv2d(in_channels=32, out_channels=64, kernel_size=(1, 1), padding=1, bias=False),
+            nn.Conv2d(in_channels=32, out_channels=64, kernel_size=(1, 1), padding=0, bias=False),
             nn.ReLU(),
             nn.BatchNorm2d(64),
             nn.Dropout(dropout_value)
@@ -62,7 +62,7 @@ class Net(nn.Module):
         )
 
         self.convblock7 = nn.Sequential(
-            nn.Conv2d(in_channels=64, out_channels=128, kernel_size=(1, 1), padding=1, bias=False),
+            nn.Conv2d(in_channels=64, out_channels=128, kernel_size=(1, 1), padding=0, bias=False),
             nn.ReLU(),
             nn.BatchNorm2d(128),
             nn.Dropout(dropout_value)
@@ -92,7 +92,7 @@ class Net(nn.Module):
         # # OUTPUT BLOCK
         self.gap = nn.AdaptiveAvgPool2d(output_size=(1, 1))   #nn.AvgPool2d(kernel_size=6),
 
-        self.fc = nn.Conv2d(in_channels=128, out_channels=10, kernel_size=(1, 1), padding=0, bias=False),
+        self.fc = nn.Conv2d(in_channels=128, out_channels=10, kernel_size=(1, 1), padding=0, bias=False)
 
 
 
@@ -115,4 +115,4 @@ class Net(nn.Module):
         x13 = self.fc(x12)
         x14 = x13.view(-1, 10)
 
-        return F.log_softmax(x, dim=-1)
+        return x14
