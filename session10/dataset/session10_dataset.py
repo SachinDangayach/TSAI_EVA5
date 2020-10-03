@@ -52,8 +52,8 @@ def get_album_transforms(norm_mean,norm_std):
     """get the train and test transform by albumentations"""
     album_train_transform = A.Compose([   A.HorizontalFlip(p=.3),
                                           A.VerticalFlip(p=.3),
-                                          A.Rotate(limit=15,p=0.5),
-                                          A.Cutout(1, 16, 16, fill_value=(0.49, 0.48, 0.45), p=.3),
+                                          # A.Rotate(limit=15,p=0.5),
+                                          A.Cutout(1, 16, 16, fill_value=(0.49, 0.48, 0.45), p=.5),
                                           A.Normalize(
                                              mean=[0.49, 0.48, 0.45],
                                               std=[0.25, 0.24, 0.26], ),
