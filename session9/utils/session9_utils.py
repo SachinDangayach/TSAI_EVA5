@@ -136,13 +136,11 @@ def get_images_by_results(model,data_loader,number_of_images = 5, mode= 2):
 
     return images, act_lbl, pred_lbl
 
-def show_images(model, classes, data_loader, num_of_images = 10, mode = 2):
+def show_images(images, act_lbl, pred_lbl, classes, num_of_images = 10):
     """ Display images """
-    images, act_lbl, pred_lbl = get_images_by_results(model,data_loader,number_of_images = num_of_images, mode= mode)
-
     plt.figure(figsize=(20,20))
-    for i in range(number_of_images):
-        img  = imgs[i].permute(1,2,0)*.25+.5
+    for i in range(num_of_images):
+        img  = images[i].permute(1,2,0)*.25+.5
         plt.subplot(10,10,num+1)
         plt.tight_layout()
         plt.imshow(img)
