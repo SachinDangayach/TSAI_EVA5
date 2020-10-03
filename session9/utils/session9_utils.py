@@ -84,7 +84,7 @@ def show_misclassified_images(model, classes, test_loader, num_of_images = 10):
             break
 
 
-def get_images_by_results(model,data_loader,number_of_images = 5, mode= 2):
+def get_images_by_results(model,data_loader,number_of_images = 5, mode= 0):
     """get images and lables as per classification result
     mode = 0 -> False classification
     mode = 1 -> Correct classification
