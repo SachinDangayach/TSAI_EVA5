@@ -134,7 +134,7 @@ def get_images_by_results(model,data_loader,number_of_images = 5, mode= 2):
             act_lbl.append(labels[i])
             pred_lbl.append(preds[i])
 
-return images, act_lbl, pred_lbl
+    return images, act_lbl, pred_lbl
 
 def show_images(model, classes, data_loader, num_of_images = 10, mode = 2):
     """ Display images """
