@@ -141,7 +141,7 @@ def show_images(images, act_lbl, pred_lbl, classes, num_of_images = 10):
     plt.figure(figsize=(20,20))
     for i in range(num_of_images):
         img  = images[i].permute(1,2,0)*.25+.5
-        plt.subplot(10,10,num+1)
+        plt.subplot(10,10,i+1)
         plt.tight_layout()
         plt.imshow(img)
         plt.axis('off')
