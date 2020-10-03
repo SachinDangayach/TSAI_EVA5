@@ -3,7 +3,7 @@
 **Data Augmentations**
 **GIT Link for the package**: https://github.com/SachinDangayach/TSAI_EVA5/tree/master/session9
 
-**Collab Link**: https://colab.research.google.com/drive/1HrfNQnO3PlAoEVUuLtLV2L-nHRiNVyYH?usp=sharing
+**Collab Link**: https://colab.research.google.com/drive/1rYfl2zH4NhUtKDzq-FTqgRDDpDpi-M3J?usp=sharing
 
 **A. Target**
 
@@ -24,3 +24,15 @@
 
 I have implemented Albumentations transforms for normalization ( by finding norm and std values for entire dataset ), Horizontal flip, Vertical flip, Rotations. This acts as a regularizer and now the model is not overfitting as much as it was earlier.
 I have also implemented the grad cam functionality and results are displayed for few of the images
+
+**D. Loss and Accuracy curves**
+
+![alt text](https://github.com/SachinDangayach/TSAI_EVA5/blob/master/session9/Loss_Accuracy_curves.png)
+
+**D. misclassified images**
+
+![alt text](https://github.com/SachinDangayach/TSAI_EVA5/blob/master/session9/Misclassified.png)
+
+**D. Grad Cam Results**
+
+![alt text](https://github.com/SachinDangayach/TSAI_EVA5/blob/master/session9/GradCam.png)
