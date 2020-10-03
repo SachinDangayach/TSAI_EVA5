@@ -175,7 +175,7 @@ def visualize_cam(mask, img, alpha=1.0):
 
 class GradCAMView:
 
-    def __init__(self, model, layers, device, mean, std, act, pred):
+    def __init__(self, model, layers, device, mean, std):
         """Instantiate GradCAM and GradCAM++.
         Args:
             model: Trained model.
@@ -189,9 +189,6 @@ class GradCAMView:
         self.device = device
         self.mean = mean
         self.std = std
-
-        self.act_lbl =  act
-        self.pred_lbl=  pred
 
         self._gradcam()
         self._gradcam_pp()
@@ -245,7 +242,7 @@ class GradCAMView:
             'result': result
         }
 
-    def _plot_view(self, view, fig, row_num, ncols, metric, act, pred):
+    def _plot_view(self, view, fig, row_num, ncols, metric):
         """Plot a CAM view.
         Args:
             view: Dictionary containing image, heatmap and result.
@@ -257,8 +254,7 @@ class GradCAMView:
         sub = fig.add_subplot(row_num, ncols, 1)
         sub.axis('off')
         plt.imshow(view['image'])
-        # sub.set_title(f'{metric.title()}:')
-        sub.set_title(f'Actual: {act} \n Predicted: {pred}',fontsize=10)
+        sub.set_title(f'{metric.title()}:')
         for idx, layer in enumerate(self.layers):
             sub = fig.add_subplot(row_num, ncols, idx + 2)
             sub.axis('off')
@@ -285,8 +281,7 @@ class GradCAMView:
             fig = plt.figure(figsize=(10, 10))
 
             # Plot view
-            # self._plot_view(view, fig, 1, len(self.layers) + 1, 'heatmap', act= self.act_lbl[idx], pred= self.pred_lbl[idx])
-            self._plot_view(view, fig, 1, len(self.layers) + 1, 'result', act= self.act_lbl[idx], pred= self.pred_lbl[idx])
+            self._plot_view(view, fig, 1, len(self.layers) + 1, 'result')
 
             # Set spacing and display
             fig.tight_layout()
