@@ -55,14 +55,14 @@ def get_album_transforms(norm_mean,norm_std):
                                           A.Rotate(limit=15,p=0.5),
                                           A.Cutout(1, 16, 16, fill_value=norm_mean, p=0.3)
                                           A.Normalize(
-                                             mean=norm_mean,
-                                              std=norm_std, ),
+                                             mean=[0.49, 0.48, 0.45],
+                                              std=[0.25, 0.24, 0.26], ),
                                           AP.transforms.ToTensor()
                                         ])
 
     album_test_transform = A.Compose([   A.Normalize(
-                                             mean=norm_mean,
-                                              std=norm_std, ),
+                                             mean=[0.49, 0.48, 0.45],
+                                              std=[0.25, 0.24, 0.26], ),
                                           AP.transforms.ToTensor()
                                         ])
     return(album_train_transform,album_test_transform)
