@@ -82,3 +82,69 @@ def show_misclassified_images(model, classes, test_loader, num_of_images = 10):
         num += 1
         if i >= imgs.shape[0]:
             break
+
+
+def get_images_by_results(model,data_loader,number_of_images = 5, mode= 2):
+    """get images and lables as per classification result
+    mode = 0 -> False classification
+    mode = 1 -> Correct classification
+    mode = 2 -> Mixed
+    """
+    imgs = []
+    labels = []
+    preds = []
+
+    model = model.to('cpu')
+
+    for img, target in data_loader:
+      imgs.append( img )
+      labels.append( target )
+      preds.append( torch.argmax(model(img), dim=1) )
+
+    imgs = torch.cat(imgs, dim=0)
+    labels = torch.cat(labels, dim=0)
+    preds = torch.cat(preds, dim=0)
+
+    matches = preds.eq(labels)
+
+    miss_clas_index = []
+    correct_class_index = []
+    for i in range(len(imgs)):
+      if not matches[i]:
+        miss_clas_index.append(i)
+      else:
+        correct_class_index.append(i)
+
+    images   = []
+    act_lbl  = []
+    pred_lbl = []
+    if mode == 0:
+        for i in range(number_of_images):
+            images.append(imgs[miss_clas_index[i]])
+            act_lbl.append(labels[miss_clas_index[i]])
+            pred_lbl.append(preds[miss_clas_index[i]])
+    elif mode == 1:
+        for i in range(number_of_images):
+            images.append(imgs[correct_class_index[i]])
+            act_lbl.append(labels[correct_class_index[i]])
+            pred_lbl.append(preds[correct_class_index[i]])
+    else: # mode = 2
+        for i in range(number_of_images):
+            images.append(imgs[i])
+            act_lbl.append(labels[i])
+            pred_lbl.append(preds[i])
+
+return images, act_lbl, pred_lbl
+
+def show_images(model, classes, data_loader, num_of_images = 10, mode = 2):
+    """ Display images """
+    images, act_lbl, pred_lbl = get_images_by_results(model,data_loader,number_of_images = num_of_images, mode= mode)
+
+    plt.figure(figsize=(20,20))
+    for i in range(number_of_images):
+        img  = imgs[i].permute(1,2,0)*.25+.5
+        plt.subplot(10,10,num+1)
+        plt.tight_layout()
+        plt.imshow(img)
+        plt.axis('off')
+        plt.title(f'Actual: {classes[act_lbl[i]]} \n Predicted: {classes[pred_lbl[i]]}' ,fontsize=10)
