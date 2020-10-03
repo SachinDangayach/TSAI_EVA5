@@ -16,10 +16,11 @@
 **B. Results**
 
 1.  Parameters: 11,173,962
-2.  Best Training Accuracy in 25 epochs: 95.87%
-3.  Best Test Accuracy in 25 epochs: 87.66%
+2.  Best Training Accuracy in 25 epochs: 96.51%
+3.  Best Test Accuracy in 25 epochs: 87.96%
 4.  Total RF reached: 76*76 at the end of Conv block 4
 
 **C. Analysis**
 
-I have implemented Albumentations transforms for normalization ( by finding norm and std values for entire dataset ), Horizontal flip, Vertical flip, Rotations. This acts as a regularizer and now the model is not overfitting as earlier.
+I have implemented Albumentations transforms for normalization ( by finding norm and std values for entire dataset ), Horizontal flip, Vertical flip, Rotations. This acts as a regularizer and now the model is not overfitting as much as it was earlier.
+I have also implemented the grad cam functionality and results are displayed for few of the images
