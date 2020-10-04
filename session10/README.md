@@ -3,7 +3,7 @@
 **Data Augmentations**
 **GIT Link for the package**: https://github.com/SachinDangayach/TSAI_EVA5/tree/master/session10
 
-**Collab Link**: https://colab.research.google.com/drive/15h09HNfUA5hXxm5VPUaj5IMWxPOai3Cd?usp=sharing
+**Collab Link**: https://colab.research.google.com/drive/1K7NP69N0nlpY6uwYxe9c65iC9svZxwcD?usp=sharing
 
 Learninig Rate
 
@@ -40,12 +40,12 @@ I have also implemented the grad cam functionality and results are displayed for
 
 **D. Loss and Accuracy curves**
 
-![alt text](https://github.com/SachinDangayach/TSAI_EVA5/blob/master/session9/Loss_Accuracy_curves.png)
+![alt text](https://github.com/SachinDangayach/TSAI_EVA5/blob/master/session10/Loss_Accuracy_curves.png)
 
 **D. misclassified images**
 
-![alt text](https://github.com/SachinDangayach/TSAI_EVA5/blob/master/session9/Misclassified.png)
+![alt text](https://github.com/SachinDangayach/TSAI_EVA5/blob/master/session10/Misclassified.png)
 
 **D. Grad Cam Results**
 
-![alt text](https://github.com/SachinDangayach/TSAI_EVA5/blob/master/session9/GradCam.png)
+![alt text](https://github.com/SachinDangayach/TSAI_EVA5/blob/master/session10/GradCam.png)
