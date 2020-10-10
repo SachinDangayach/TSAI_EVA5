@@ -45,7 +45,7 @@ LRtest_Lr = []
 def LR_test(max_lr, min_lr,device,iterations,steps,model,criterion,train_loader,momemtum = 0.9,weight_decay=0.05, plot= True ):
     delta = (max_lr - min_lr )/steps
     lr = min_lr
-    epochs = math.ceil(len(trainloader)/iterations)
+    epochs = math.ceil(len(train_loader)/iterations)
     for step in range(steps):
         testmodel = copy.deepcopy(model)
         optimizer = optim.SGD(testmodel.parameters(), lr=lr ,momentum=momemtum,weight_decay=weight_decay )
