@@ -51,10 +51,11 @@ def cifar10_mean_std():
 def get_album_transforms(norm_mean,norm_std):
     """get the train and test transform by albumentations"""
     album_train_transform = A.Compose([
-                                          A.Resize (40, 40, interpolation=1, always_apply=False, p=1),
+                                          # A.Resize(40, 40, interpolation=1, always_apply=False, p=1),
+                                          A.PadIfNeeded(min_height=36, min_width=36, border_mode = cv2.BORDER_REFLECT, always_apply=True,),
                                           A.RandomCrop(height=32, width=32, always_apply=True),
                                           A.HorizontalFlip(p=0.5),
-                                          A.Cutout(1, 8, 8, norm_mean, p=0.5),
+                                          A.Cutout(1, 8, 8, norm_mean, p=0.3),
                                           A.Normalize(
                                              mean=norm_mean,
                                               std=norm_std, ),
