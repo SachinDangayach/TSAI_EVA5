@@ -37,16 +37,16 @@ def train(model, device, train_loader, criterion, optimizer, epoch, train_losses
         correct += pred.eq(target.view_as(pred)).sum().item()
         processed += len(data)
 
-        pbar.set_description(desc= f'Learning Rate = {lr} Train Accuracy={100*correct/processed:0.2f}')
+        pbar.set_description(desc= f'Learning Rate = {lr} epoch={epoch} Train Accuracy={100*correct/processed:0.2f}')
         train_acc.append(100*correct/processed)
 
-Lrtest_train_acc = []
-LRtest_Lr = []
 def LR_test(max_lr, min_lr,device,iterations,steps,model,criterion,train_loader,momemtum = 0.9,weight_decay=0.05, plot= True ):
     delta = (max_lr - min_lr )/steps
     lr = min_lr
     epochs = math.ceil(iterations/len(train_loader))
-    print(epochs,delta)
+    Lrtest_train_acc = []
+    LRtest_Lr = []
+
     for step in range(steps+1):
         testmodel = copy.deepcopy(model)
         optimizer = optim.SGD(testmodel.parameters(), lr=lr ,momentum=momemtum,weight_decay=weight_decay )
@@ -59,7 +59,6 @@ def LR_test(max_lr, min_lr,device,iterations,steps,model,criterion,train_loader,
         lr += delta
 
     if(plot):
-        plt.clf()
         plt.plot(LRtest_Lr, Lrtest_train_acc)
         plt.ylabel('train Accuracy')
         plt.xlabel("Learning rate")
