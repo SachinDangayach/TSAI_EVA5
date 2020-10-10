@@ -7,7 +7,7 @@ import math
 
 import copy
 
-def train(model, device, train_loader, criterion, optimizer, epoch, train_losses, train_acc):
+def train(model, device, train_loader, criterion, optimizer, epoch, train_losses, train_acc, lr):
     """Train network"""
     model.train()
     pbar = tqdm(train_loader)
@@ -37,7 +37,7 @@ def train(model, device, train_loader, criterion, optimizer, epoch, train_losses
         correct += pred.eq(target.view_as(pred)).sum().item()
         processed += len(data)
 
-        pbar.set_description(desc= f'Loss={loss.item()} Batch_id={batch_idx} Train Accuracy={100*correct/processed:0.2f}')
+        pbar.set_description(desc= f'Learning Rate = {lr} Train Accuracy={100*correct/processed:0.2f}')
         train_acc.append(100*correct/processed)
 
 Lrtest_train_acc = []
@@ -47,13 +47,13 @@ def LR_test(max_lr, min_lr,device,iterations,steps,model,criterion,train_loader,
     lr = min_lr
     epochs = math.ceil(iterations/len(train_loader))
     print(epochs,delta)
-    for step in range(steps):
+    for step in range(steps+1):
         testmodel = copy.deepcopy(model)
         optimizer = optim.SGD(testmodel.parameters(), lr=lr ,momentum=momemtum,weight_decay=weight_decay )
         train_acc = []
         train_losses = []
         for epoch in range(epochs):
-            train(testmodel, device, train_loader,criterion, optimizer, epoch, train_losses, train_acc)
+            train(testmodel, device, train_loader,criterion, optimizer, epoch, train_losses, train_acc, lr)
         Lrtest_train_acc.append(train_acc[-1])
         LRtest_Lr.append(optimizer.param_groups[0]['lr'])
         lr += delta
@@ -65,5 +65,3 @@ def LR_test(max_lr, min_lr,device,iterations,steps,model,criterion,train_loader,
         plt.xlabel("Learning rate")
         plt.title("Lr v/s accuracy")
         plt.show()
-
-    return LRtest_Lr, Lrtest_train_acc
