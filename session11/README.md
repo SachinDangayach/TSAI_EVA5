@@ -1,51 +1,94 @@
-# EVA5 Session 10 Assignment by Sachin Dangayach
+# EVA5 Session 11 Assignment by Sachin Dangayach
 
-**Data Augmentations**
-**GIT Link for the package**: https://github.com/SachinDangayach/TSAI_EVA5/tree/master/session10
+**Super Convergence**
+**GIT Link for the package**: https://github.com/SachinDangayach/TSAI_EVA5/tree/master/session11
 
-**Collab Link**: https://colab.research.google.com/drive/1K7NP69N0nlpY6uwYxe9c65iC9svZxwcD?usp=sharing
+**Collab Link for Cyclic Curve**: https://colab.research.google.com/drive/1CdN_rOeAq-ILGxwFpwf2O2pfL8jCSrxl?usp=sharing
 
-Learninig Rate
+**Collab Link for CLR**: https://colab.research.google.com/drive/1aX_8aenrFAWGhaQ0ohsWyaN-_I7VZZmn?usp=sharing
+
 
 **A. Target**
-1. Pick your last code
-2. Make sure  to Add CutOut to your code. It should come from your transformations (albumentations)
-3. Use this repo: https://github.com/davidtvs/pytorch-lr-finder
-  1. Move LR Finder code to your modules
-  2. Implement LR Finder (for SGD, not for ADAM)
-  3. Implement ReduceLROnPlatea: https://pytorch.org/docs/stable/optim.html#torch.optim.lr_scheduler.ReduceLROnPlateau
 
-4. Find best LR to train your model
-5. Use SDG with Momentum
-6. Train for 50 Epochs.
-7. Show Training and Test Accuracy curves
-8. Target 88% Accuracy.
-9. Run GradCAM on the any 25 misclassified images. Make sure you mention what is the prediction and what was the ground truth label.
-10. Submit
+1. Write a code which
+
+> 1. Uses this new ResNet Architecture for Cifar10:
+
+>> 1. PrepLayer - Conv 3x3 s1, p1) >> BN >> RELU [64k]
+
+>> 2. Layer1 -
+
+>>> 1. X = Conv 3x3 (s1, p1) >> MaxPool2D >> BN >> RELU [128k]
+
+>>> 2. R1 = ResBlock( (Conv-BN-ReLU-Conv-BN-ReLU))(X) [128k]
+
+>>> 3. Add(X, R1)
+
+>>3. Layer 2 -
+
+>>> 1. Conv 3x3 [256k]
+
+>>> 2. MaxPooling2D
+
+>>> 3. BN
+
+>>> 4. ReLU
+
+>> 4. Layer 3 -
+
+>>> 1. X = Conv 3x3 (s1, p1) >> MaxPool2D >> BN >> RELU [512k]
+
+>>> 2. R2 = ResBlock( (Conv-BN-ReLU-Conv-BN-ReLU))(X) [512k]
+
+>>> 3. Add(X, R2)
+
+>> 5. MaxPooling with Kernel Size 4
+
+>> 6. FC Layer
+
+>> 7. SoftMax
+
+> 2. Uses One Cycle Policy such that:
+
+>> 1. Total Epochs = 24
+
+>> 2. Max at Epoch = 5
+
+>> 3. LRMIN = FIND
+
+>> 4. LRMAX = FIND
+
+>> 5. NO Annihilation
+
+>> 3. Uses this transform -RandomCrop 32, 32 (after padding of 4) >> FlipLR >> Followed by CutOut(8, 8)
+
+>>4. Batch size = 512
+
+>>5. Target Accuracy: 90%.
 
 
 **B. Results**
-1. Parameters: 11,173,962
-2. Best Training Accuracy in 30 epochs: 98.08 %
-3. Best Test Accuracy in 30 epochs: 91.34 %
-4. Total RF reached: 76*76 at the end of Conv block 4
+
+1. Parameters: 6,573,120
+
+2. Best Training Accuracy in 24 epochs: 98.81%
+
+3. Best Test Accuracy in 50 epochs: 93.22 %
+
 
 **C. Analysis**
 
-I have implemented Albumentations transforms for normalization ( by finding norm and std values for entire dataset ), Horizontal flip, Vertical flip Rotations and cut our. This acts as a regularizer and now the model is not overfitting to the extent it was earlier
 
-I have implemented the LR finder from given Repo. I have chosen the LR where the loss is minimum which is 0.1 and not suggested by the code. I even tried with the code suggested LR by model was hardly training with that value.
-
-I have also implemented the grad cam functionality and results are displayed for 30 images
+I have implemented the Davidnet and applied the required image augmentations. I used the LR finder to find the max learning rate with test range between .0001 to .02 and with 400 iteration (nearly 5 epochs with batch size of 512 while total 50000 images in train set). I fould max LR to be .03. With max LR as 0.03 and min LR as Max Lr/ 10 = 0.003, with one cycle approach, we could train the network to reach above 90% accuracy in less than 24 epocs
 
 **D. Loss and Accuracy curves**
 
 ![alt text](https://github.com/SachinDangayach/TSAI_EVA5/blob/master/session10/Loss_Accuracy_curves.png)
 
-**D. misclassified images**
+**E. LR Range Test**
 
 ![alt text](https://github.com/SachinDangayach/TSAI_EVA5/blob/master/session10/Misclassified.png)
 
-**D. Grad Cam Results**
+**F. CYCLIC TRIANGLE plot**
 
 ![alt text](https://github.com/SachinDangayach/TSAI_EVA5/blob/master/session10/GradCam.png)
