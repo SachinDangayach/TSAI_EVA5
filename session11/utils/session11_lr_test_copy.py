@@ -4,7 +4,6 @@ from tqdm import tqdm
 import matplotlib.pyplot as plt
 import math
 
-
 import copy
 
 def train(model, device, train_loader, criterion, optimizer, epoch, train_losses, train_acc, lr):
