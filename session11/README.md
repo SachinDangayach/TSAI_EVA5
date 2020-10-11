@@ -83,12 +83,12 @@ I have implemented the Davidnet and applied the required image augmentations. I 
 
 **D. Loss and Accuracy curves**
 
-![alt text](https://github.com/SachinDangayach/TSAI_EVA5/blob/master/session10/Loss_Accuracy_curves.png)
+![alt text](https://github.com/SachinDangayach/TSAI_EVA5/blob/master/session11/Loss_Accuracy_Plot.png)
 
 **E. LR Range Test**
 
-![alt text](https://github.com/SachinDangayach/TSAI_EVA5/blob/master/session10/Misclassified.png)
+![alt text](https://github.com/SachinDangayach/TSAI_EVA5/blob/master/session11/LR_Range_test.png)
 
 **F. CYCLIC TRIANGLE plot**
 
-![alt text](https://github.com/SachinDangayach/TSAI_EVA5/blob/master/session10/GradCam.png)
+![alt text](https://github.com/SachinDangayach/TSAI_EVA5/blob/master/session11/Cyclic_Plot.png)
