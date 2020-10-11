@@ -9,7 +9,7 @@ from torch.optim.lr_scheduler import StepLR
 
 from tqdm import tqdm
 
-def train(model, device, train_loader, optimizer, epoch, train_losses, train_acc, scheduler = False):
+def train(model, device, train_loader, optimizer, epoch, train_losses, train_acc, scheduler):
     """Train network"""
     model.train()
     pbar = tqdm(train_loader)
