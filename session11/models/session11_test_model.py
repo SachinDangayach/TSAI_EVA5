@@ -13,7 +13,7 @@ from torch.optim.lr_scheduler import StepLR
 from tqdm import tqdm
 
 
-def test(model, device, test_loader, test_losses, test_acc):
+def test(model, device, test_loader, test_losses, test_acc, criterion):
     """Test the model performance"""
     model.eval()
     test_loss = 0
@@ -22,7 +22,8 @@ def test(model, device, test_loader, test_losses, test_acc):
         for data, target in test_loader:
             data, target = data.to(device), target.to(device)
             output = model(data)
-            test_loss += nn.NLLLoss(output, target, reduction='sum').item()  # sum up batch loss
+            # test_loss += nn.NLLLoss(output, target, reduction='sum').item()  # sum up batch loss
+            test_loss += criterion(output, target, reduction='sum').item()  # sum up batch loss
             pred = output.argmax(dim=1, keepdim=True)  # get the index of the max log-probability
             correct += pred.eq(target.view_as(pred)).sum().item()
 

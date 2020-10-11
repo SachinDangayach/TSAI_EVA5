@@ -9,7 +9,7 @@ from torch.optim.lr_scheduler import StepLR
 
 from tqdm import tqdm
 
-def train(model, device, train_loader, optimizer, epoch, train_losses, train_acc):
+def train(model, device, train_loader, criterion, optimizer, epoch, train_losses, train_acc):
     """Train network"""
     model.train()
     pbar = tqdm(train_loader)
@@ -26,7 +26,8 @@ def train(model, device, train_loader, optimizer, epoch, train_losses, train_acc
         y_pred = model(data)
 
         # Calculate loss
-        loss = nn.NLLLoss(y_pred, target)
+        # loss = nn.NLLLoss(y_pred, target)
+        loss = criterion(y_pred, target)
         train_losses.append(loss)
 
         # Backpropagation
