@@ -24,7 +24,7 @@ def train(model, device, train_loader, criterion, optimizer, epoch, train_losses
         y_pred = model(data)
 
         # Calculate loss
-        loss = F.cross_entropy(y_pred, target)
+        loss = criterion(y_pred, target)
         train_losses.append(loss)
 
         # Backpropagation
