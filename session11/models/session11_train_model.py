@@ -33,8 +33,7 @@ def train(model, device, train_loader, optimizer, epoch, train_losses, train_acc
         loss.backward()
         optimizer.step()
 
-        if(scheduler):
-            scheduler.step()
+        scheduler.step()
 
         # Update pbar-tqdm
 
