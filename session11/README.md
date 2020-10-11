@@ -92,3 +92,7 @@ I have implemented the Davidnet and applied the required image augmentations. I 
 **F. CYCLIC TRIANGLE plot**
 
 ![alt text](https://github.com/SachinDangayach/TSAI_EVA5/blob/master/session11/Cyclic_Plot.png)
+
+**G. Misclassified**
+
+![alt text](https://github.com/SachinDangayach/TSAI_EVA5/blob/master/session11/Misclassified.png)
