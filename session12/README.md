@@ -26,9 +26,9 @@
 
 1. Parameters: 11,271,432
 
-2. Best Training Accuracy in 30 epochs: 68.19 %
+2. Best Training Accuracy in 30 epochs: 68.19 %, in 30 epochs 74.99 %
 
-3. Best Test Accuracy in 27 epochs: 54.33 %
+3. Best Test Accuracy in 27 epochs: 54.33 %, in 30 epochs 57.49%
 
 **C. Analysis**
 
