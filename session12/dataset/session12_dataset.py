@@ -31,9 +31,8 @@ TinyImageNetDataSet is the function which intern calls many funtions
 Finaly trainset, testset are returned.
 """
 
-# -----------------------------------------------------Main Function which calls everything--------------------------------------------------------------
 def TinyImageNetDataSet(train_split = 70, train_transforms = None, test_transforms = None):
-
+  """Main Function which calls everything"""
   down_url  = "http://cs231n.stanford.edu/tiny-imagenet-200.zip"
   download_images(down_url)
   classes = class_names(url = "tiny-imagenet-200/wnids.txt")
@@ -46,11 +45,8 @@ def TinyImageNetDataSet(train_split = 70, train_transforms = None, test_transfor
 
   return train_dataset, test_dataset,classes
 
-
-
-# --------------------------------------------------------------Custom data set-------------------------------------------------------------------------
-
 class TinyImageNet(Dataset):
+    """Custom data set"""
     def __init__(self,classes,url):
         self.data = []
         self.target = []
@@ -91,10 +87,6 @@ class TinyImageNet(Dataset):
         img = data
         return data,target
 
-
-
-# ----------------------------------------------------Data subset which comes after splitting--------------------------------------------------
-
 class DatasetFromSubset(Dataset):
     def __init__(self, subset, transform=None):
         self.subset = subset
@@ -109,17 +101,12 @@ class DatasetFromSubset(Dataset):
     def __len__(self):
         return len(self.subset)
 
-# -------------------------------------------------------------------------------------------------------------------------------------------------------
-
 def class_names(url = "tiny-imagenet-200/wnids.txt"):
   f = open(url, "r")
   classes = []
   for line in f:
     classes.append(line.strip())
   return classes
-
-# ---------------------------------------------------Download Images---------------------------------------------------------------------------
-
 
 def download_images(url):
 
@@ -134,24 +121,6 @@ def download_images(url):
     zip_ref.close()
 
 
-
-# class AlbumentationsDataset(Dataset):
-#     """__init__ and __len__ functions are the same as in TorchvisionDataset"""
-#     def __init__(self, rimages, labels, transform=None):
-#         self.rimages = rimages
-#         self.labels = labels
-#         self.transform = transform
-#
-#     def __len__(self):
-#         return len(self.rimages)
-#
-#     def __getitem__(self, idx):
-#         label = self.labels[idx]
-#         image = self.rimages[idx]
-#         if self.transform:
-#             augmented = self.transform(image=image)
-#             image = augmented['image']
-#         return image, label
 class AlbumentationTransforms:
   """
   Helper class to create test and train transforms using Albumentations
@@ -169,23 +138,6 @@ class AlbumentationTransforms:
 
 def get_album_transforms(norm_mean,norm_std):
     """get the train and test transform by albumentations"""
-    # album_train_transform = A.Compose([
-    #                                       A.PadIfNeeded(min_height=70, min_width=70, border_mode = 2, always_apply=True,),
-    #                                       A.RandomCrop(height=64, width=64, always_apply=True),
-    #                                       A.HorizontalFlip(p=0.5),
-    #                                       # A.Rotate(limit=30, interpolation=1, border_mode=4, value=None, mask_value=None, always_apply=False, p=0.5),
-    #                                       A.Normalize(
-    #                                          mean=norm_mean,
-    #                                           std=norm_std, ),
-    #                                       A.Cutout(1, 32, 32, p=0.4),
-    #                                       AP.transforms.ToTensor()
-    #                                     ])
-    #
-    # album_test_transform = A.Compose([   A.Normalize(
-    #                                          mean=norm_mean,
-    #                                           std=norm_std, ),
-    #                                       AP.transforms.ToTensor()
-    #                                     ])
     train_transform = AlbumentationTransforms([
                                       A.HorizontalFlip(p = 0.7),
                                       A.PadIfNeeded(min_height=70, min_width=70, border_mode=4, always_apply=False, p=1.0),
@@ -197,26 +149,6 @@ def get_album_transforms(norm_mean,norm_std):
     test_transform = AlbumentationTransforms([A.Normalize(mean=norm_mean, std=norm_std)])
     return(train_transform,test_transform)
 
-# def get_datasets():
-#     """Extract and transform the data"""
-#     train_set = torchvision.datasets.CIFAR10(root='./data', train=True,download=True)
-#     test_set  = torchvision.datasets.CIFAR10(root='./data', train=False,download=True)
-#     return(train_set,test_set)
-
-# def trasnform_datasets(train_set, test_set, train_transform, test_transform):
-#     """Transform the data"""
-#     train_set = AlbumentationsDataset(
-#                                     rimages= train_set.data,
-#                                     labels=train_set.targets,
-#                                     transform=train_transform,
-#                                     )
-#
-#     test_set = AlbumentationsDataset(
-#                                     rimages= test_set.data,
-#                                     labels=test_set.targets,
-#                                     transform=test_transform,
-#                                     )
-#     return(train_set,test_set)
 
 def get_dataloaders(train_set,test_set,batch_size):
     """ Dataloader Arguments & Test/Train Dataloaders - Load part of ETL"""

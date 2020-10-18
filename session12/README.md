@@ -1,98 +1,66 @@
-# EVA5 Session 11 Assignment by Sachin Dangayach
+# EVA5 Session 12 Assignment by Sachin Dangayach
 
-**Super Convergence**
+**ResNet18 for TinyImageNet and Data Preprations for YOLO**
+
 **GIT Link for the package**: https://github.com/SachinDangayach/TSAI_EVA5/tree/master/session11
 
-**Collab Link for Cyclic Curve**: https://colab.research.google.com/drive/1CdN_rOeAq-ILGxwFpwf2O2pfL8jCSrxl?usp=sharing
+**Collab Link for TinyImageNet Training**: https://colab.research.google.com/drive/1aX_8aenrFAWGhaQ0ohsWyaN-_I7VZZmn?usp=sharing
 
-**Collab Link for CLR**: https://colab.research.google.com/drive/1aX_8aenrFAWGhaQ0ohsWyaN-_I7VZZmn?usp=sharing
+**Collab Link for Data Preparations for YOLO**: https://colab.research.google.com/drive/1aX_8aenrFAWGhaQ0ohsWyaN-_I7VZZmn?usp=sharing
 
+**GIT Link for annotated dataset with 50+ class of masks, boots, hardhats and vests**:
+
+**GIT Link for JSON file**:
+
+
+## Assignment A: TinyImagenet training
 
 **A. Target**
-
-1. Write a code which
-
-> 1. Uses this new ResNet Architecture for Cifar10:
-
->> 1. PrepLayer - Conv 3x3 s1, p1) >> BN >> RELU [64k]
-
->> 2. Layer1 -
-
->>> 1. X = Conv 3x3 (s1, p1) >> MaxPool2D >> BN >> RELU [128k]
-
->>> 2. R1 = ResBlock( (Conv-BN-ReLU-Conv-BN-ReLU))(X) [128k]
-
->>> 3. Add(X, R1)
-
->>3. Layer 2 -
-
->>> 1. Conv 3x3 [256k]
-
->>> 2. MaxPooling2D
-
->>> 3. BN
-
->>> 4. ReLU
-
->> 4. Layer 3 -
-
->>> 1. X = Conv 3x3 (s1, p1) >> MaxPool2D >> BN >> RELU [512k]
-
->>> 2. R2 = ResBlock( (Conv-BN-ReLU-Conv-BN-ReLU))(X) [512k]
-
->>> 3. Add(X, R2)
-
->> 5. MaxPooling with Kernel Size 4
-
->> 6. FC Layer
-
->> 7. SoftMax
-
-> 2. Uses One Cycle Policy such that:
-
->> 1. Total Epochs = 24
-
->> 2. Max at Epoch = 5
-
->> 3. LRMIN = FIND
-
->> 4. LRMAX = FIND
-
->> 5. NO Annihilation
-
->> 3. Uses this transform -RandomCrop 32, 32 (after padding of 4) >> FlipLR >> Followed by CutOut(8, 8)
-
->>4. Batch size = 512
-
->>5. Target Accuracy: 90%.
-
+> Download this TINY IMAGENET dataset.
+> Train ResNet18 on this dataset (70/30 split) for 50 Epochs. Target 50%+ Validation Accuracy.
+> Submit Results. Of course, you are using your own package for everything.
 
 **B. Results**
 
-1. Parameters: 6,573,120
+1. Parameters: 11,271,432
 
-2. Best Training Accuracy in 24 epochs: 98.81%
+2. Best Training Accuracy in 30 epochs: 98.81%
 
-3. Best Test Accuracy in 50 epochs: 93.22 %
-
+3. Best Test Accuracy in 30 epochs: 93.22 %
 
 **C. Analysis**
 
-
-I have implemented the Davidnet and applied the required image augmentations. I used the LR finder to find the max learning rate with test range between .0001 to .02 and with 400 iteration (nearly 5 epochs with batch size of 512 while total 50000 images in train set). I found max LR to be .03. With max LR as 0.03 and min LR as Max Lr/ 10 = 0.003, with one cycle approach, we could train the network to reach above 90% accuracy in less than 24 epocs
+I have used one cycle learning with max learning rate of 0.02 and minimum of 0.002. Max LR is reached in 11 epochs. I have used augmentations (horizontal flip, resizing and random cropping, rotation and cutout with normalization) to regularize the training. Model could achieve required accuracy in
 
 **D. Loss and Accuracy curves**
 
 ![alt text](https://github.com/SachinDangayach/TSAI_EVA5/blob/master/session11/Loss_Accuracy_Plot.png)
 
-**E. LR Range Test**
+## Assignment B: Data Preparations for YOLO
 
-![alt text](https://github.com/SachinDangayach/TSAI_EVA5/blob/master/session11/LR_Range_test.png)
+## Target
+1. Download 50 (min) images each of people wearing hardhat, vest, mask and boots.
+2. Use these labels (same spelling and small letters):
+    1. hardhat
+    2. vest
+    3. mask
+    4. boots
+3. Use this to annotate bounding boxes around the hardhat, vest, mask and boots.
+4. Download JSON file.
+5. Describe the contents of this JSON file in FULL details (you don't need to describe all 10 instances, anyone would work).
+6. Refer to this tutorial . Find out the best total numbers of clusters. Upload link to your Colab File uploaded to GitHub.
 
-**F. CYCLIC TRIANGLE plot**
-
-![alt text](https://github.com/SachinDangayach/TSAI_EVA5/blob/master/session11/Cyclic_Plot.png)
-
-**G. Misclassified**
-
-![alt text](https://github.com/SachinDangayach/TSAI_EVA5/blob/master/session11/Misclassified.png)
+## Description of Jason-
+>1.Key: Example img_001.jpg116338. This is unique key (concatination of image name and image size)
+>2. filename: Name of the image file
+>3. size: Size of image
+>4. regions: It consists of shape_attributes and region_attributes (both described below)
+>>1. shape_attributes: It is collection of attributes describing the bonding boxes. Below are the fields.
+>>>a. name: There are 6 different options in vgg tool for region selection. As we have selected for rectangular option, value is rect in jason file
+>>>b. x: We consider origin as top left corner of image. x is horizontal distance of bounding box top left corner from origin (Image's top left)
+>>>c. y: We consider origin as top left corner of image. y is vertical distance of bounding box top left corner from origin (Image's top left)
+>>>d. width: Width of bounding box
+>>>e. height: Height of bounding box
+>>2. region_attributes: It consists of region_attributes. We have only one region attribute named class
+>>>a. class: it is one of the four class values (hardhat, mask, boots, vest)
+>5. file_attributes: We have not used this attribute and this is empty for all images.
