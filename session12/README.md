@@ -69,6 +69,6 @@ I have used one cycle learning with max learning rate of 0.02 and minimum of 0.0
 
 ## K-Means clusters
 ### K = 3
-![alt text](https://github.com/SachinDangayach/TSAI_EVA5/blob/master/session11/Loss_Accuracy_Plot.png)
+![alt text](https://github.com/SachinDangayach/TSAI_EVA5/blob/master/session12/keq3.png)
 ### K = 4
-![alt text](https://github.com/SachinDangayach/TSAI_EVA5/blob/master/session11/Loss_Accuracy_Plot.png)
+![alt text](https://github.com/SachinDangayach/TSAI_EVA5/blob/master/session12/keq4.png)
