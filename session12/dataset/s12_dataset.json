@@ -1,0 +1,4100 @@
+{
+  "img_001.jpg116338": {
+    "filename": "img_001.jpg",
+    "size": 116338,
+    "regions": [
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 706,
+          "y": 47,
+          "width": 286,
+          "height": 189
+        },
+        "region_attributes": {
+          "class": "hardhat"
+        }
+      },
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 593,
+          "y": 434,
+          "width": 524,
+          "height": 195
+        },
+        "region_attributes": {
+          "class": "vest"
+        }
+      }
+    ],
+    "file_attributes": {
+
+    }
+  },
+  "img_002.jpg204699": {
+    "filename": "img_002.jpg",
+    "size": 204699,
+    "regions": [
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 762,
+          "y": 222,
+          "width": 203,
+          "height": 213
+        },
+        "region_attributes": {
+          "class": "mask"
+        }
+      }
+    ],
+    "file_attributes": {
+
+    }
+  },
+  "img_003.jpg66270": {
+    "filename": "img_003.jpg",
+    "size": 66270,
+    "regions": [
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 498,
+          "y": 281,
+          "width": 130,
+          "height": 95
+        },
+        "region_attributes": {
+          "class": "mask"
+        }
+      }
+    ],
+    "file_attributes": {
+
+    }
+  },
+  "img_004.jpg12112": {
+    "filename": "img_004.jpg",
+    "size": 12112,
+    "regions": [
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 132,
+          "y": 119,
+          "width": 53,
+          "height": 40
+        },
+        "region_attributes": {
+          "class": "mask"
+        }
+      },
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 115,
+          "y": 35,
+          "width": 108,
+          "height": 78
+        },
+        "region_attributes": {
+          "class": "hardhat"
+        }
+      },
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 168,
+          "y": 148,
+          "width": 57,
+          "height": 77
+        },
+        "region_attributes": {
+          "class": "vest"
+        }
+      }
+    ],
+    "file_attributes": {
+
+    }
+  },
+  "img_005.jpg325017": {
+    "filename": "img_005.jpg",
+    "size": 325017,
+    "regions": [
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 88,
+          "y": 111,
+          "width": 443,
+          "height": 355
+        },
+        "region_attributes": {
+          "class": "boots"
+        }
+      },
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 730,
+          "y": 125,
+          "width": 174,
+          "height": 383
+        },
+        "region_attributes": {
+          "class": "boots"
+        }
+      }
+    ],
+    "file_attributes": {
+
+    }
+  },
+  "img_006.jpg9136": {
+    "filename": "img_006.jpg",
+    "size": 9136,
+    "regions": [
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 55,
+          "y": 92,
+          "width": 86,
+          "height": 83
+        },
+        "region_attributes": {
+          "class": "vest"
+        }
+      },
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 68,
+          "y": 28,
+          "width": 56,
+          "height": 38
+        },
+        "region_attributes": {
+          "class": "hardhat"
+        }
+      }
+    ],
+    "file_attributes": {
+
+    }
+  },
+  "img_007.jpg8749": {
+    "filename": "img_007.jpg",
+    "size": 8749,
+    "regions": [
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 150,
+          "y": 43,
+          "width": 55,
+          "height": 36
+        },
+        "region_attributes": {
+          "class": "mask"
+        }
+      },
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 148,
+          "y": 2,
+          "width": 67,
+          "height": 38
+        },
+        "region_attributes": {
+          "class": "hardhat"
+        }
+      },
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 115,
+          "y": 71,
+          "width": 108,
+          "height": 98
+        },
+        "region_attributes": {
+          "class": "vest"
+        }
+      }
+    ],
+    "file_attributes": {
+
+    }
+  },
+  "img_008.jpg25261": {
+    "filename": "img_008.jpg",
+    "size": 25261,
+    "regions": [
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 250,
+          "y": 90,
+          "width": 111,
+          "height": 129
+        },
+        "region_attributes": {
+          "class": "vest"
+        }
+      },
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 279,
+          "y": 62,
+          "width": 35,
+          "height": 28
+        },
+        "region_attributes": {
+          "class": "mask"
+        }
+      }
+    ],
+    "file_attributes": {
+
+    }
+  },
+  "img_009.jpg9785": {
+    "filename": "img_009.jpg",
+    "size": 9785,
+    "regions": [
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 104,
+          "y": 42,
+          "width": 45,
+          "height": 27
+        },
+        "region_attributes": {
+          "class": "mask"
+        }
+      },
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 81,
+          "y": -1,
+          "width": 74,
+          "height": 55
+        },
+        "region_attributes": {
+          "class": "hardhat"
+        }
+      }
+    ],
+    "file_attributes": {
+
+    }
+  },
+  "img_010.jpg10185": {
+    "filename": "img_010.jpg",
+    "size": 10185,
+    "regions": [
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 108,
+          "y": 47,
+          "width": 56,
+          "height": 32
+        },
+        "region_attributes": {
+          "class": "mask"
+        }
+      },
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 98,
+          "y": 2,
+          "width": 71,
+          "height": 43
+        },
+        "region_attributes": {
+          "class": "hardhat"
+        }
+      },
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 89,
+          "y": 73,
+          "width": 109,
+          "height": 92
+        },
+        "region_attributes": {
+          "class": "vest"
+        }
+      }
+    ],
+    "file_attributes": {
+
+    }
+  },
+  "img_011.jpg6763": {
+    "filename": "img_011.jpg",
+    "size": 6763,
+    "regions": [
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 139,
+          "y": 11,
+          "width": 64,
+          "height": 32
+        },
+        "region_attributes": {
+          "class": "hardhat"
+        }
+      },
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 144,
+          "y": 48,
+          "width": 39,
+          "height": 33
+        },
+        "region_attributes": {
+          "class": "mask"
+        }
+      },
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 128,
+          "y": 85,
+          "width": 95,
+          "height": 97
+        },
+        "region_attributes": {
+          "class": "vest"
+        }
+      }
+    ],
+    "file_attributes": {
+
+    }
+  },
+  "img_012.jpg14613": {
+    "filename": "img_012.jpg",
+    "size": 14613,
+    "regions": [
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 131,
+          "y": 8,
+          "width": 56,
+          "height": 37
+        },
+        "region_attributes": {
+          "class": "hardhat"
+        }
+      },
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 146,
+          "y": 52,
+          "width": 33,
+          "height": 24
+        },
+        "region_attributes": {
+          "class": "mask"
+        }
+      },
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 134,
+          "y": 70,
+          "width": 92,
+          "height": 106
+        },
+        "region_attributes": {
+          "class": "vest"
+        }
+      }
+    ],
+    "file_attributes": {
+
+    }
+  },
+  "img_013.jpg232237": {
+    "filename": "img_013.jpg",
+    "size": 232237,
+    "regions": [
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 223,
+          "y": 301,
+          "width": 252,
+          "height": 365
+        },
+        "region_attributes": {
+          "class": "vest"
+        }
+      },
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 308,
+          "y": 221,
+          "width": 80,
+          "height": 75
+        },
+        "region_attributes": {
+          "class": "mask"
+        }
+      },
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 280,
+          "y": 114,
+          "width": 134,
+          "height": 92
+        },
+        "region_attributes": {
+          "class": "hardhat"
+        }
+      }
+    ],
+    "file_attributes": {
+
+    }
+  },
+  "img_014.jpg35215": {
+    "filename": "img_014.jpg",
+    "size": 35215,
+    "regions": [
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 244,
+          "y": 128,
+          "width": 88,
+          "height": 74
+        },
+        "region_attributes": {
+          "class": "mask"
+        }
+      },
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 327,
+          "y": 333,
+          "width": 127,
+          "height": 52
+        },
+        "region_attributes": {
+          "class": "hardhat"
+        }
+      },
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 191,
+          "y": 226,
+          "width": 230,
+          "height": 156
+        },
+        "region_attributes": {
+          "class": "vest"
+        }
+      }
+    ],
+    "file_attributes": {
+
+    }
+  },
+  "img_015.jpg335313": {
+    "filename": "img_015.jpg",
+    "size": 335313,
+    "regions": [
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 308,
+          "y": 279,
+          "width": 402,
+          "height": 402
+        },
+        "region_attributes": {
+          "class": "vest"
+        }
+      },
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 441,
+          "y": 180,
+          "width": 106,
+          "height": 104
+        },
+        "region_attributes": {
+          "class": "mask"
+        }
+      }
+    ],
+    "file_attributes": {
+
+    }
+  },
+  "img_016.jpg149662": {
+    "filename": "img_016.jpg",
+    "size": 149662,
+    "regions": [
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 533,
+          "y": 243,
+          "width": 260,
+          "height": 179
+        },
+        "region_attributes": {
+          "class": "mask"
+        }
+      },
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 373,
+          "y": 414,
+          "width": 546,
+          "height": 666
+        },
+        "region_attributes": {
+          "class": "vest"
+        }
+      }
+    ],
+    "file_attributes": {
+
+    }
+  },
+  "img_017.jpg228512": {
+    "filename": "img_017.jpg",
+    "size": 228512,
+    "regions": [
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 705,
+          "y": 328,
+          "width": 218,
+          "height": 291
+        },
+        "region_attributes": {
+          "class": "vest"
+        }
+      },
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 790,
+          "y": 174,
+          "width": 127,
+          "height": 100
+        },
+        "region_attributes": {
+          "class": "hardhat"
+        }
+      },
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 587,
+          "y": 652,
+          "width": 42,
+          "height": 88
+        },
+        "region_attributes": {
+          "class": "boots"
+        }
+      },
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 859,
+          "y": 743,
+          "width": 143,
+          "height": 62
+        },
+        "region_attributes": {
+          "class": "boots"
+        }
+      }
+    ],
+    "file_attributes": {
+
+    }
+  },
+  "img_018.jpg113692": {
+    "filename": "img_018.jpg",
+    "size": 113692,
+    "regions": [
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 400,
+          "y": 168,
+          "width": 71,
+          "height": 70
+        },
+        "region_attributes": {
+          "class": "hardhat"
+        }
+      },
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 631,
+          "y": 412,
+          "width": 103,
+          "height": 129
+        },
+        "region_attributes": {
+          "class": "boots"
+        }
+      }
+    ],
+    "file_attributes": {
+
+    }
+  },
+  "img_019.jpg137161": {
+    "filename": "img_019.jpg",
+    "size": 137161,
+    "regions": [
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 1,
+          "y": 374,
+          "width": 137,
+          "height": 284
+        },
+        "region_attributes": {
+          "class": "boots"
+        }
+      },
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 305,
+          "y": 0,
+          "width": 215,
+          "height": 193
+        },
+        "region_attributes": {
+          "class": "hardhat"
+        }
+      }
+    ],
+    "file_attributes": {
+
+    }
+  },
+  "img_020.jpg210550": {
+    "filename": "img_020.jpg",
+    "size": 210550,
+    "regions": [
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 229,
+          "y": 195,
+          "width": 95,
+          "height": 73
+        },
+        "region_attributes": {
+          "class": "hardhat"
+        }
+      },
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 249,
+          "y": 755,
+          "width": 74,
+          "height": 71
+        },
+        "region_attributes": {
+          "class": "boots"
+        }
+      },
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 390,
+          "y": 674,
+          "width": 89,
+          "height": 68
+        },
+        "region_attributes": {
+          "class": "boots"
+        }
+      }
+    ],
+    "file_attributes": {
+
+    }
+  },
+  "img_021.jpg147771": {
+    "filename": "img_021.jpg",
+    "size": 147771,
+    "regions": [
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 514,
+          "y": 317,
+          "width": 187,
+          "height": 245
+        },
+        "region_attributes": {
+          "class": "hardhat"
+        }
+      },
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 59,
+          "y": 398,
+          "width": 482,
+          "height": 541
+        },
+        "region_attributes": {
+          "class": "vest"
+        }
+      }
+    ],
+    "file_attributes": {
+
+    }
+  },
+  "img_022.jpg185394": {
+    "filename": "img_022.jpg",
+    "size": 185394,
+    "regions": [
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 273,
+          "y": 225,
+          "width": 104,
+          "height": 87
+        },
+        "region_attributes": {
+          "class": "hardhat"
+        }
+      },
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 362,
+          "y": 699,
+          "width": 133,
+          "height": 102
+        },
+        "region_attributes": {
+          "class": "boots"
+        }
+      }
+    ],
+    "file_attributes": {
+
+    }
+  },
+  "img_023.jpg100764": {
+    "filename": "img_023.jpg",
+    "size": 100764,
+    "regions": [
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 869,
+          "y": 81,
+          "width": 296,
+          "height": 169
+        },
+        "region_attributes": {
+          "class": "hardhat"
+        }
+      },
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 867,
+          "y": 379,
+          "width": 420,
+          "height": 484
+        },
+        "region_attributes": {
+          "class": "vest"
+        }
+      }
+    ],
+    "file_attributes": {
+
+    }
+  },
+  "img_024.jpg107721": {
+    "filename": "img_024.jpg",
+    "size": 107721,
+    "regions": [
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 888,
+          "y": 0,
+          "width": 191,
+          "height": 120
+        },
+        "region_attributes": {
+          "class": "hardhat"
+        }
+      },
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 1050,
+          "y": 830,
+          "width": 130,
+          "height": 100
+        },
+        "region_attributes": {
+          "class": "boots"
+        }
+      },
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 1184,
+          "y": 862,
+          "width": 180,
+          "height": 74
+        },
+        "region_attributes": {
+          "class": "boots"
+        }
+      }
+    ],
+    "file_attributes": {
+
+    }
+  },
+  "img_025.jpg48660": {
+    "filename": "img_025.jpg",
+    "size": 48660,
+    "regions": [
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 615,
+          "y": 5,
+          "width": 169,
+          "height": 113
+        },
+        "region_attributes": {
+          "class": "hardhat"
+        }
+      },
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 625,
+          "y": 153,
+          "width": 266,
+          "height": 325
+        },
+        "region_attributes": {
+          "class": "vest"
+        }
+      }
+    ],
+    "file_attributes": {
+
+    }
+  },
+  "img_026.jpg124489": {
+    "filename": "img_026.jpg",
+    "size": 124489,
+    "regions": [
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 854,
+          "y": 225,
+          "width": 180,
+          "height": 104
+        },
+        "region_attributes": {
+          "class": "hardhat"
+        }
+      },
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 932,
+          "y": 331,
+          "width": 245,
+          "height": 261
+        },
+        "region_attributes": {
+          "class": "vest"
+        }
+      },
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 963,
+          "y": 664,
+          "width": 232,
+          "height": 121
+        },
+        "region_attributes": {
+          "class": "boots"
+        }
+      },
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 824,
+          "y": 568,
+          "width": 146,
+          "height": 214
+        },
+        "region_attributes": {
+          "class": "boots"
+        }
+      }
+    ],
+    "file_attributes": {
+
+    }
+  },
+  "img_027.jpg10830": {
+    "filename": "img_027.jpg",
+    "size": 10830,
+    "regions": [
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 81,
+          "y": 169,
+          "width": 28,
+          "height": 61
+        },
+        "region_attributes": {
+          "class": "boots"
+        }
+      },
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 118,
+          "y": 175,
+          "width": 33,
+          "height": 53
+        },
+        "region_attributes": {
+          "class": "boots"
+        }
+      },
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 70,
+          "y": 12,
+          "width": 41,
+          "height": 20
+        },
+        "region_attributes": {
+          "class": "hardhat"
+        }
+      }
+    ],
+    "file_attributes": {
+
+    }
+  },
+  "img_028.jpg405136": {
+    "filename": "img_028.jpg",
+    "size": 405136,
+    "regions": [
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 345,
+          "y": 1027,
+          "width": 114,
+          "height": 211
+        },
+        "region_attributes": {
+          "class": "boots"
+        }
+      },
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 502,
+          "y": 1019,
+          "width": 181,
+          "height": 197
+        },
+        "region_attributes": {
+          "class": "boots"
+        }
+      }
+    ],
+    "file_attributes": {
+
+    }
+  },
+  "img_029.jpg288911": {
+    "filename": "img_029.jpg",
+    "size": 288911,
+    "regions": [
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 562,
+          "y": 695,
+          "width": 261,
+          "height": 119
+        },
+        "region_attributes": {
+          "class": "boots"
+        }
+      },
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 802,
+          "y": 597,
+          "width": 159,
+          "height": 146
+        },
+        "region_attributes": {
+          "class": "boots"
+        }
+      },
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 561,
+          "y": 30,
+          "width": 187,
+          "height": 147
+        },
+        "region_attributes": {
+          "class": "hardhat"
+        }
+      }
+    ],
+    "file_attributes": {
+
+    }
+  },
+  "img_030.jpg49546": {
+    "filename": "img_030.jpg",
+    "size": 49546,
+    "regions": [
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 203,
+          "y": 49,
+          "width": 119,
+          "height": 102
+        },
+        "region_attributes": {
+          "class": "hardhat"
+        }
+      },
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 98,
+          "y": 336,
+          "width": 121,
+          "height": 81
+        },
+        "region_attributes": {
+          "class": "boots"
+        }
+      },
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 198,
+          "y": 352,
+          "width": 91,
+          "height": 101
+        },
+        "region_attributes": {
+          "class": "boots"
+        }
+      },
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 249,
+          "y": 110,
+          "width": 197,
+          "height": 191
+        },
+        "region_attributes": {
+          "class": "vest"
+        }
+      }
+    ],
+    "file_attributes": {
+
+    }
+  },
+  "img_031.jpg839145": {
+    "filename": "img_031.jpg",
+    "size": 839145,
+    "regions": [
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 630,
+          "y": 180,
+          "width": 194,
+          "height": 144
+        },
+        "region_attributes": {
+          "class": "hardhat"
+        }
+      },
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 484,
+          "y": 453,
+          "width": 437,
+          "height": 513
+        },
+        "region_attributes": {
+          "class": "vest"
+        }
+      }
+    ],
+    "file_attributes": {
+
+    }
+  },
+  "img_032.jpg26005": {
+    "filename": "img_032.jpg",
+    "size": 26005,
+    "regions": [
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 244,
+          "y": 0,
+          "width": 104,
+          "height": 50
+        },
+        "region_attributes": {
+          "class": "hardhat"
+        }
+      },
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 209,
+          "y": 93,
+          "width": 156,
+          "height": 220
+        },
+        "region_attributes": {
+          "class": "vest"
+        }
+      },
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 214,
+          "y": 531,
+          "width": 60,
+          "height": 64
+        },
+        "region_attributes": {
+          "class": "boots"
+        }
+      },
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 295,
+          "y": 506,
+          "width": 84,
+          "height": 66
+        },
+        "region_attributes": {
+          "class": "boots"
+        }
+      }
+    ],
+    "file_attributes": {
+
+    }
+  },
+  "img_033.jpg240546": {
+    "filename": "img_033.jpg",
+    "size": 240546,
+    "regions": [
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 643,
+          "y": 110,
+          "width": 91,
+          "height": 55
+        },
+        "region_attributes": {
+          "class": "hardhat"
+        }
+      },
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 604,
+          "y": 203,
+          "width": 141,
+          "height": 184
+        },
+        "region_attributes": {
+          "class": "vest"
+        }
+      },
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 622,
+          "y": 572,
+          "width": 63,
+          "height": 86
+        },
+        "region_attributes": {
+          "class": "boots"
+        }
+      },
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 641,
+          "y": 631,
+          "width": 73,
+          "height": 65
+        },
+        "region_attributes": {
+          "class": "boots"
+        }
+      }
+    ],
+    "file_attributes": {
+
+    }
+  },
+  "img_034.jpg106984": {
+    "filename": "img_034.jpg",
+    "size": 106984,
+    "regions": [
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 346,
+          "y": 117,
+          "width": 57,
+          "height": 57
+        },
+        "region_attributes": {
+          "class": "hardhat"
+        }
+      },
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 210,
+          "y": 136,
+          "width": 181,
+          "height": 125
+        },
+        "region_attributes": {
+          "class": "vest"
+        }
+      },
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 298,
+          "y": 409,
+          "width": 72,
+          "height": 33
+        },
+        "region_attributes": {
+          "class": "boots"
+        }
+      }
+    ],
+    "file_attributes": {
+
+    }
+  },
+  "img_035.jpg117660": {
+    "filename": "img_035.jpg",
+    "size": 117660,
+    "regions": [
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 589,
+          "y": 4,
+          "width": 221,
+          "height": 225
+        },
+        "region_attributes": {
+          "class": "hardhat"
+        }
+      },
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 660,
+          "y": 213,
+          "width": 131,
+          "height": 73
+        },
+        "region_attributes": {
+          "class": "mask"
+        }
+      },
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 684,
+          "y": 152,
+          "width": 465,
+          "height": 601
+        },
+        "region_attributes": {
+          "class": "vest"
+        }
+      }
+    ],
+    "file_attributes": {
+
+    }
+  },
+  "img_036.jpg41573": {
+    "filename": "img_036.jpg",
+    "size": 41573,
+    "regions": [
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 370,
+          "y": 99,
+          "width": 83,
+          "height": 74
+        },
+        "region_attributes": {
+          "class": "mask"
+        }
+      }
+    ],
+    "file_attributes": {
+
+    }
+  },
+  "img_037.jpg5815": {
+    "filename": "img_037.jpg",
+    "size": 5815,
+    "regions": [
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 120,
+          "y": 78,
+          "width": 81,
+          "height": 51
+        },
+        "region_attributes": {
+          "class": "mask"
+        }
+      }
+    ],
+    "file_attributes": {
+
+    }
+  },
+  "img_038.jpg66500": {
+    "filename": "img_038.jpg",
+    "size": 66500,
+    "regions": [
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 444,
+          "y": 171,
+          "width": 158,
+          "height": 192
+        },
+        "region_attributes": {
+          "class": "mask"
+        }
+      },
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 435,
+          "y": 0,
+          "width": 345,
+          "height": 191
+        },
+        "region_attributes": {
+          "class": "hardhat"
+        }
+      },
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 423,
+          "y": 340,
+          "width": 435,
+          "height": 142
+        },
+        "region_attributes": {
+          "class": "vest"
+        }
+      }
+    ],
+    "file_attributes": {
+
+    }
+  },
+  "img_039.jpg116355": {
+    "filename": "img_039.jpg",
+    "size": 116355,
+    "regions": [
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 409,
+          "y": 308,
+          "width": 230,
+          "height": 199
+        },
+        "region_attributes": {
+          "class": "mask"
+        }
+      },
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 337,
+          "y": 63,
+          "width": 384,
+          "height": 226
+        },
+        "region_attributes": {
+          "class": "hardhat"
+        }
+      },
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 208,
+          "y": 486,
+          "width": 667,
+          "height": 385
+        },
+        "region_attributes": {
+          "class": "vest"
+        }
+      }
+    ],
+    "file_attributes": {
+
+    }
+  },
+  "img_040.jpg42789": {
+    "filename": "img_040.jpg",
+    "size": 42789,
+    "regions": [
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 107,
+          "y": 23,
+          "width": 115,
+          "height": 72
+        },
+        "region_attributes": {
+          "class": "hardhat"
+        }
+      },
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 131,
+          "y": 136,
+          "width": 64,
+          "height": 44
+        },
+        "region_attributes": {
+          "class": "mask"
+        }
+      },
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 84,
+          "y": 110,
+          "width": 179,
+          "height": 203
+        },
+        "region_attributes": {
+          "class": "vest"
+        }
+      }
+    ],
+    "file_attributes": {
+
+    }
+  },
+  "img_041.jpg12446": {
+    "filename": "img_041.jpg",
+    "size": 12446,
+    "regions": [
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 101,
+          "y": 17,
+          "width": 73,
+          "height": 59
+        },
+        "region_attributes": {
+          "class": "hardhat"
+        }
+      },
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 118,
+          "y": 82,
+          "width": 36,
+          "height": 34
+        },
+        "region_attributes": {
+          "class": "mask"
+        }
+      },
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 86,
+          "y": 105,
+          "width": 108,
+          "height": 147
+        },
+        "region_attributes": {
+          "class": "vest"
+        }
+      }
+    ],
+    "file_attributes": {
+
+    }
+  },
+  "img_042.jpg206030": {
+    "filename": "img_042.jpg",
+    "size": 206030,
+    "regions": [
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 297,
+          "y": 96,
+          "width": 277,
+          "height": 214
+        },
+        "region_attributes": {
+          "class": "hardhat"
+        }
+      },
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 353,
+          "y": 322,
+          "width": 145,
+          "height": 140
+        },
+        "region_attributes": {
+          "class": "mask"
+        }
+      },
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 111,
+          "y": 403,
+          "width": 486,
+          "height": 710
+        },
+        "region_attributes": {
+          "class": "vest"
+        }
+      }
+    ],
+    "file_attributes": {
+
+    }
+  },
+  "img_043.jpg7195": {
+    "filename": "img_043.jpg",
+    "size": 7195,
+    "regions": [
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 70,
+          "y": 16,
+          "width": 41,
+          "height": 25
+        },
+        "region_attributes": {
+          "class": "hardhat"
+        }
+      },
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 59,
+          "y": 62,
+          "width": 65,
+          "height": 81
+        },
+        "region_attributes": {
+          "class": "vest"
+        }
+      },
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 34,
+          "y": 236,
+          "width": 44,
+          "height": 31
+        },
+        "region_attributes": {
+          "class": "boots"
+        }
+      },
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 89,
+          "y": 238,
+          "width": 35,
+          "height": 33
+        },
+        "region_attributes": {
+          "class": "boots"
+        }
+      }
+    ],
+    "file_attributes": {
+
+    }
+  },
+  "img_044.jpg8107": {
+    "filename": "img_044.jpg",
+    "size": 8107,
+    "regions": [
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 64,
+          "y": 12,
+          "width": 36,
+          "height": 26
+        },
+        "region_attributes": {
+          "class": "hardhat"
+        }
+      },
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 69,
+          "y": 42,
+          "width": 25,
+          "height": 24
+        },
+        "region_attributes": {
+          "class": "mask"
+        }
+      },
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 54,
+          "y": 59,
+          "width": 59,
+          "height": 82
+        },
+        "region_attributes": {
+          "class": "vest"
+        }
+      },
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 50,
+          "y": 220,
+          "width": 32,
+          "height": 31
+        },
+        "region_attributes": {
+          "class": "boots"
+        }
+      },
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 83,
+          "y": 201,
+          "width": 32,
+          "height": 25
+        },
+        "region_attributes": {
+          "class": "boots"
+        }
+      }
+    ],
+    "file_attributes": {
+
+    }
+  },
+  "img_045.jpg6074": {
+    "filename": "img_045.jpg",
+    "size": 6074,
+    "regions": [
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 72,
+          "y": 6,
+          "width": 39,
+          "height": 31
+        },
+        "region_attributes": {
+          "class": "hardhat"
+        }
+      },
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 76,
+          "y": 39,
+          "width": 34,
+          "height": 25
+        },
+        "region_attributes": {
+          "class": "mask"
+        }
+      },
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 65,
+          "y": 230,
+          "width": 32,
+          "height": 34
+        },
+        "region_attributes": {
+          "class": "boots"
+        }
+      },
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 90,
+          "y": 215,
+          "width": 46,
+          "height": 27
+        },
+        "region_attributes": {
+          "class": "boots"
+        }
+      }
+    ],
+    "file_attributes": {
+
+    }
+  },
+  "img_046.jpg55589": {
+    "filename": "img_046.jpg",
+    "size": 55589,
+    "regions": [
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 233,
+          "y": 77,
+          "width": 113,
+          "height": 64
+        },
+        "region_attributes": {
+          "class": "hardhat"
+        }
+      },
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 151,
+          "y": 193,
+          "width": 209,
+          "height": 281
+        },
+        "region_attributes": {
+          "class": "vest"
+        }
+      },
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 150,
+          "y": 787,
+          "width": 73,
+          "height": 75
+        },
+        "region_attributes": {
+          "class": "boots"
+        }
+      },
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 268,
+          "y": 791,
+          "width": 131,
+          "height": 63
+        },
+        "region_attributes": {
+          "class": "boots"
+        }
+      }
+    ],
+    "file_attributes": {
+
+    }
+  },
+  "img_047.jpg6117": {
+    "filename": "img_047.jpg",
+    "size": 6117,
+    "regions": [
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 81,
+          "y": 272,
+          "width": 56,
+          "height": 28
+        },
+        "region_attributes": {
+          "class": "boots"
+        }
+      },
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 75,
+          "y": 2,
+          "width": 49,
+          "height": 31
+        },
+        "region_attributes": {
+          "class": "hardhat"
+        }
+      },
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 52,
+          "y": 46,
+          "width": 71,
+          "height": 102
+        },
+        "region_attributes": {
+          "class": "vest"
+        }
+      },
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 28,
+          "y": 273,
+          "width": 33,
+          "height": 32
+        },
+        "region_attributes": {
+          "class": "boots"
+        }
+      }
+    ],
+    "file_attributes": {
+
+    }
+  },
+  "img_048.jpg49824": {
+    "filename": "img_048.jpg",
+    "size": 49824,
+    "regions": [
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 239,
+          "y": 85,
+          "width": 113,
+          "height": 71
+        },
+        "region_attributes": {
+          "class": "hardhat"
+        }
+      },
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 207,
+          "y": 221,
+          "width": 185,
+          "height": 256
+        },
+        "region_attributes": {
+          "class": "vest"
+        }
+      },
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 187,
+          "y": 799,
+          "width": 79,
+          "height": 78
+        },
+        "region_attributes": {
+          "class": "boots"
+        }
+      },
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 331,
+          "y": 801,
+          "width": 73,
+          "height": 80
+        },
+        "region_attributes": {
+          "class": "boots"
+        }
+      }
+    ],
+    "file_attributes": {
+
+    }
+  },
+  "img_049.jpg40672": {
+    "filename": "img_049.jpg",
+    "size": 40672,
+    "regions": [
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 183,
+          "y": 155,
+          "width": 104,
+          "height": 70
+        },
+        "region_attributes": {
+          "class": "hardhat"
+        }
+      },
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 140,
+          "y": 270,
+          "width": 141,
+          "height": 233
+        },
+        "region_attributes": {
+          "class": "vest"
+        }
+      },
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 75,
+          "y": 775,
+          "width": 129,
+          "height": 60
+        },
+        "region_attributes": {
+          "class": "boots"
+        }
+      },
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 272,
+          "y": 760,
+          "width": 129,
+          "height": 67
+        },
+        "region_attributes": {
+          "class": "boots"
+        }
+      }
+    ],
+    "file_attributes": {
+
+    }
+  },
+  "img_050.jpg6476": {
+    "filename": "img_050.jpg",
+    "size": 6476,
+    "regions": [
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 72,
+          "y": 30,
+          "width": 58,
+          "height": 40
+        },
+        "region_attributes": {
+          "class": "hardhat"
+        }
+      },
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 27,
+          "y": 76,
+          "width": 102,
+          "height": 103
+        },
+        "region_attributes": {
+          "class": "vest"
+        }
+      },
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 59,
+          "y": 186,
+          "width": 51,
+          "height": 29
+        },
+        "region_attributes": {
+          "class": "boots"
+        }
+      },
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 118,
+          "y": 179,
+          "width": 48,
+          "height": 26
+        },
+        "region_attributes": {
+          "class": "boots"
+        }
+      }
+    ],
+    "file_attributes": {
+
+    }
+  },
+  "img_051.jpg122650": {
+    "filename": "img_051.jpg",
+    "size": 122650,
+    "regions": [
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 312,
+          "y": 84,
+          "width": 221,
+          "height": 153
+        },
+        "region_attributes": {
+          "class": "hardhat"
+        }
+      },
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 13,
+          "y": 1051,
+          "width": 301,
+          "height": 128
+        },
+        "region_attributes": {
+          "class": "boots"
+        }
+      },
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 345,
+          "y": 1092,
+          "width": 200,
+          "height": 159
+        },
+        "region_attributes": {
+          "class": "boots"
+        }
+      }
+    ],
+    "file_attributes": {
+
+    }
+  },
+  "img_052.jpg6155": {
+    "filename": "img_052.jpg",
+    "size": 6155,
+    "regions": [
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 43,
+          "y": 15,
+          "width": 32,
+          "height": 20
+        },
+        "region_attributes": {
+          "class": "hardhat"
+        }
+      },
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 19,
+          "y": 39,
+          "width": 55,
+          "height": 79
+        },
+        "region_attributes": {
+          "class": "vest"
+        }
+      },
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 86,
+          "y": 109,
+          "width": 48,
+          "height": 25
+        },
+        "region_attributes": {
+          "class": "boots"
+        }
+      },
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 54,
+          "y": 172,
+          "width": 29,
+          "height": 38
+        },
+        "region_attributes": {
+          "class": "boots"
+        }
+      }
+    ],
+    "file_attributes": {
+
+    }
+  },
+  "img_053.jpg38450": {
+    "filename": "img_053.jpg",
+    "size": 38450,
+    "regions": [
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 313,
+          "y": 227,
+          "width": 72,
+          "height": 72
+        },
+        "region_attributes": {
+          "class": "vest"
+        }
+      },
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 319,
+          "y": 193,
+          "width": 34,
+          "height": 26
+        },
+        "region_attributes": {
+          "class": "hardhat"
+        }
+      },
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 350,
+          "y": 392,
+          "width": 32,
+          "height": 28
+        },
+        "region_attributes": {
+          "class": "boots"
+        }
+      }
+    ],
+    "file_attributes": {
+
+    }
+  },
+  "img_054.jpg94649": {
+    "filename": "img_054.jpg",
+    "size": 94649,
+    "regions": [
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 186,
+          "y": 27,
+          "width": 209,
+          "height": 172
+        },
+        "region_attributes": {
+          "class": "hardhat"
+        }
+      },
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 205,
+          "y": 277,
+          "width": 316,
+          "height": 504
+        },
+        "region_attributes": {
+          "class": "vest"
+        }
+      }
+    ],
+    "file_attributes": {
+
+    }
+  },
+  "img_055.jpg52739": {
+    "filename": "img_055.jpg",
+    "size": 52739,
+    "regions": [
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 209,
+          "y": 4,
+          "width": 51,
+          "height": 45
+        },
+        "region_attributes": {
+          "class": "hardhat"
+        }
+      },
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 191,
+          "y": 60,
+          "width": 74,
+          "height": 138
+        },
+        "region_attributes": {
+          "class": "vest"
+        }
+      },
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 193,
+          "y": 391,
+          "width": 64,
+          "height": 36
+        },
+        "region_attributes": {
+          "class": "boots"
+        }
+      },
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 224,
+          "y": 352,
+          "width": 30,
+          "height": 29
+        },
+        "region_attributes": {
+          "class": "boots"
+        }
+      }
+    ],
+    "file_attributes": {
+
+    }
+  },
+  "img_056.jpg181276": {
+    "filename": "img_056.jpg",
+    "size": 181276,
+    "regions": [
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 257,
+          "y": 136,
+          "width": 169,
+          "height": 126
+        },
+        "region_attributes": {
+          "class": "hardhat"
+        }
+      },
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 218,
+          "y": 339,
+          "width": 292,
+          "height": 330
+        },
+        "region_attributes": {
+          "class": "vest"
+        }
+      },
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 103,
+          "y": 771,
+          "width": 161,
+          "height": 292
+        },
+        "region_attributes": {
+          "class": "boots"
+        }
+      },
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 457,
+          "y": 887,
+          "width": 156,
+          "height": 254
+        },
+        "region_attributes": {
+          "class": "boots"
+        }
+      }
+    ],
+    "file_attributes": {
+
+    }
+  },
+  "img_057.jpg8051": {
+    "filename": "img_057.jpg",
+    "size": 8051,
+    "regions": [
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 97,
+          "y": 4,
+          "width": 87,
+          "height": 50
+        },
+        "region_attributes": {
+          "class": "hardhat"
+        }
+      },
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 106,
+          "y": 60,
+          "width": 51,
+          "height": 50
+        },
+        "region_attributes": {
+          "class": "mask"
+        }
+      },
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 69,
+          "y": 93,
+          "width": 160,
+          "height": 85
+        },
+        "region_attributes": {
+          "class": "vest"
+        }
+      }
+    ],
+    "file_attributes": {
+
+    }
+  },
+  "img_058.jpg10185": {
+    "filename": "img_058.jpg",
+    "size": 10185,
+    "regions": [
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 86,
+          "y": 78,
+          "width": 124,
+          "height": 87
+        },
+        "region_attributes": {
+          "class": "vest"
+        }
+      },
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 104,
+          "y": 43,
+          "width": 62,
+          "height": 34
+        },
+        "region_attributes": {
+          "class": "mask"
+        }
+      },
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 104,
+          "y": 4,
+          "width": 66,
+          "height": 36
+        },
+        "region_attributes": {
+          "class": "hardhat"
+        }
+      }
+    ],
+    "file_attributes": {
+
+    }
+  },
+  "img_059.jpg9239": {
+    "filename": "img_059.jpg",
+    "size": 9239,
+    "regions": [
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 71,
+          "y": 40,
+          "width": 63,
+          "height": 35
+        },
+        "region_attributes": {
+          "class": "hardhat"
+        }
+      },
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 73,
+          "y": 72,
+          "width": 44,
+          "height": 43
+        },
+        "region_attributes": {
+          "class": "mask"
+        }
+      },
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 8,
+          "y": 98,
+          "width": 113,
+          "height": 85
+        },
+        "region_attributes": {
+          "class": "vest"
+        }
+      }
+    ],
+    "file_attributes": {
+
+    }
+  },
+  "img_060.jpg7052": {
+    "filename": "img_060.jpg",
+    "size": 7052,
+    "regions": [
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 44,
+          "y": 75,
+          "width": 66,
+          "height": 88
+        },
+        "region_attributes": {
+          "class": "mask"
+        }
+      },
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 18,
+          "y": 0,
+          "width": 158,
+          "height": 117
+        },
+        "region_attributes": {
+          "class": "hardhat"
+        }
+      },
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 3,
+          "y": 168,
+          "width": 177,
+          "height": 107
+        },
+        "region_attributes": {
+          "class": "vest"
+        }
+      }
+    ],
+    "file_attributes": {
+
+    }
+  },
+  "img_061.jpg7593": {
+    "filename": "img_061.jpg",
+    "size": 7593,
+    "regions": [
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 81,
+          "y": 6,
+          "width": 54,
+          "height": 32
+        },
+        "region_attributes": {
+          "class": "hardhat"
+        }
+      },
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 91,
+          "y": 46,
+          "width": 43,
+          "height": 26
+        },
+        "region_attributes": {
+          "class": "mask"
+        }
+      },
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 56,
+          "y": 76,
+          "width": 106,
+          "height": 104
+        },
+        "region_attributes": {
+          "class": "vest"
+        }
+      }
+    ],
+    "file_attributes": {
+
+    }
+  },
+  "img_062.jpg211984": {
+    "filename": "img_062.jpg",
+    "size": 211984,
+    "regions": [
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 238,
+          "y": 40,
+          "width": 108,
+          "height": 71
+        },
+        "region_attributes": {
+          "class": "hardhat"
+        }
+      },
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 259,
+          "y": 128,
+          "width": 67,
+          "height": 66
+        },
+        "region_attributes": {
+          "class": "mask"
+        }
+      },
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 193,
+          "y": 194,
+          "width": 202,
+          "height": 165
+        },
+        "region_attributes": {
+          "class": "vest"
+        }
+      }
+    ],
+    "file_attributes": {
+
+    }
+  },
+  "img_063.jpg82681": {
+    "filename": "img_063.jpg",
+    "size": 82681,
+    "regions": [
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 286,
+          "y": 102,
+          "width": 267,
+          "height": 198
+        },
+        "region_attributes": {
+          "class": "hardhat"
+        }
+      },
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 307,
+          "y": 336,
+          "width": 204,
+          "height": 161
+        },
+        "region_attributes": {
+          "class": "mask"
+        }
+      }
+    ],
+    "file_attributes": {
+
+    }
+  },
+  "img_064.jpg90055": {
+    "filename": "img_064.jpg",
+    "size": 90055,
+    "regions": [
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 482,
+          "y": 206,
+          "width": 271,
+          "height": 176
+        },
+        "region_attributes": {
+          "class": "mask"
+        }
+      }
+    ],
+    "file_attributes": {
+
+    }
+  },
+  "img_065.jpg44202": {
+    "filename": "img_065.jpg",
+    "size": 44202,
+    "regions": [
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 361,
+          "y": 175,
+          "width": 128,
+          "height": 102
+        },
+        "region_attributes": {
+          "class": "mask"
+        }
+      },
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 308,
+          "y": 49,
+          "width": 193,
+          "height": 158
+        },
+        "region_attributes": {
+          "class": "hardhat"
+        }
+      },
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 295,
+          "y": 264,
+          "width": 237,
+          "height": 149
+        },
+        "region_attributes": {
+          "class": "vest"
+        }
+      }
+    ],
+    "file_attributes": {
+
+    }
+  },
+  "img_066.jpg48673": {
+    "filename": "img_066.jpg",
+    "size": 48673,
+    "regions": [
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 451,
+          "y": 2,
+          "width": 199,
+          "height": 131
+        },
+        "region_attributes": {
+          "class": "hardhat"
+        }
+      },
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 475,
+          "y": 147,
+          "width": 141,
+          "height": 94
+        },
+        "region_attributes": {
+          "class": "mask"
+        }
+      },
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 355,
+          "y": 247,
+          "width": 330,
+          "height": 270
+        },
+        "region_attributes": {
+          "class": "vest"
+        }
+      }
+    ],
+    "file_attributes": {
+
+    }
+  },
+  "img_067.jpg43004": {
+    "filename": "img_067.jpg",
+    "size": 43004,
+    "regions": [
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 166,
+          "y": 28,
+          "width": 144,
+          "height": 92
+        },
+        "region_attributes": {
+          "class": "hardhat"
+        }
+      },
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 174,
+          "y": 142,
+          "width": 121,
+          "height": 83
+        },
+        "region_attributes": {
+          "class": "mask"
+        }
+      },
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 114,
+          "y": 227,
+          "width": 247,
+          "height": 303
+        },
+        "region_attributes": {
+          "class": "vest"
+        }
+      }
+    ],
+    "file_attributes": {
+
+    }
+  },
+  "img_068.jpg61012": {
+    "filename": "img_068.jpg",
+    "size": 61012,
+    "regions": [
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 620,
+          "y": 5,
+          "width": 428,
+          "height": 237
+        },
+        "region_attributes": {
+          "class": "hardhat"
+        }
+      },
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 697,
+          "y": 280,
+          "width": 164,
+          "height": 213
+        },
+        "region_attributes": {
+          "class": "mask"
+        }
+      }
+    ],
+    "file_attributes": {
+
+    }
+  },
+  "img_069.jpg293667": {
+    "filename": "img_069.jpg",
+    "size": 293667,
+    "regions": [
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 480,
+          "y": 495,
+          "width": 373,
+          "height": 354
+        },
+        "region_attributes": {
+          "class": "mask"
+        }
+      },
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 306,
+          "y": 63,
+          "width": 635,
+          "height": 430
+        },
+        "region_attributes": {
+          "class": "hardhat"
+        }
+      }
+    ],
+    "file_attributes": {
+
+    }
+  },
+  "img_070.jpg139951": {
+    "filename": "img_070.jpg",
+    "size": 139951,
+    "regions": [
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 866,
+          "y": 417,
+          "width": 338,
+          "height": 260
+        },
+        "region_attributes": {
+          "class": "mask"
+        }
+      },
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 806,
+          "y": 38,
+          "width": 466,
+          "height": 333
+        },
+        "region_attributes": {
+          "class": "hardhat"
+        }
+      }
+    ],
+    "file_attributes": {
+
+    }
+  },
+  "img_071.jpg120956": {
+    "filename": "img_071.jpg",
+    "size": 120956,
+    "regions": [
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 360,
+          "y": 22,
+          "width": 259,
+          "height": 166
+        },
+        "region_attributes": {
+          "class": "hardhat"
+        }
+      },
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 390,
+          "y": 253,
+          "width": 198,
+          "height": 143
+        },
+        "region_attributes": {
+          "class": "mask"
+        }
+      },
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 245,
+          "y": 362,
+          "width": 491,
+          "height": 509
+        },
+        "region_attributes": {
+          "class": "vest"
+        }
+      }
+    ],
+    "file_attributes": {
+
+    }
+  },
+  "img_072.jpg170300": {
+    "filename": "img_072.jpg",
+    "size": 170300,
+    "regions": [
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 538,
+          "y": 50,
+          "width": 352,
+          "height": 238
+        },
+        "region_attributes": {
+          "class": "hardhat"
+        }
+      },
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 579,
+          "y": 313,
+          "width": 243,
+          "height": 194
+        },
+        "region_attributes": {
+          "class": "mask"
+        }
+      },
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 393,
+          "y": 414,
+          "width": 599,
+          "height": 660
+        },
+        "region_attributes": {
+          "class": "vest"
+        }
+      }
+    ],
+    "file_attributes": {
+
+    }
+  },
+  "img_073.jpg17915": {
+    "filename": "img_073.jpg",
+    "size": 17915,
+    "regions": [
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 252,
+          "y": 28,
+          "width": 144,
+          "height": 110
+        },
+        "region_attributes": {
+          "class": "hardhat"
+        }
+      },
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 354,
+          "y": 91,
+          "width": 54,
+          "height": 72
+        },
+        "region_attributes": {
+          "class": "mask"
+        }
+      }
+    ],
+    "file_attributes": {
+
+    }
+  },
+  "img_074.jpg10767": {
+    "filename": "img_074.jpg",
+    "size": 10767,
+    "regions": [
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 68,
+          "y": 55,
+          "width": 113,
+          "height": 163
+        },
+        "region_attributes": {
+          "class": "vest"
+        }
+      }
+    ],
+    "file_attributes": {
+
+    }
+  },
+  "img_075.jpg12857": {
+    "filename": "img_075.jpg",
+    "size": 12857,
+    "regions": [
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 147,
+          "y": 10,
+          "width": 48,
+          "height": 28
+        },
+        "region_attributes": {
+          "class": "hardhat"
+        }
+      },
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 140,
+          "y": 59,
+          "width": 88,
+          "height": 122
+        },
+        "region_attributes": {
+          "class": "vest"
+        }
+      }
+    ],
+    "file_attributes": {
+
+    }
+  },
+  "img_076.jpg5421": {
+    "filename": "img_076.jpg",
+    "size": 5421,
+    "regions": [
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 55,
+          "y": 103,
+          "width": 69,
+          "height": 63
+        },
+        "region_attributes": {
+          "class": "mask"
+        }
+      }
+    ],
+    "file_attributes": {
+
+    }
+  },
+  "img_077.jpg5134": {
+    "filename": "img_077.jpg",
+    "size": 5134,
+    "regions": [
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 114,
+          "y": 44,
+          "width": 43,
+          "height": 43
+        },
+        "region_attributes": {
+          "class": "mask"
+        }
+      }
+    ],
+    "file_attributes": {
+
+    }
+  },
+  "img_078.jpg6966": {
+    "filename": "img_078.jpg",
+    "size": 6966,
+    "regions": [
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 138,
+          "y": 64,
+          "width": 69,
+          "height": 50
+        },
+        "region_attributes": {
+          "class": "mask"
+        }
+      }
+    ],
+    "file_attributes": {
+
+    }
+  },
+  "img_079.jpg4146": {
+    "filename": "img_079.jpg",
+    "size": 4146,
+    "regions": [
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 102,
+          "y": 62,
+          "width": 82,
+          "height": 82
+        },
+        "region_attributes": {
+          "class": "mask"
+        }
+      }
+    ],
+    "file_attributes": {
+
+    }
+  },
+  "img_080.jpg3943": {
+    "filename": "img_080.jpg",
+    "size": 3943,
+    "regions": [
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 103,
+          "y": 85,
+          "width": 70,
+          "height": 61
+        },
+        "region_attributes": {
+          "class": "mask"
+        }
+      }
+    ],
+    "file_attributes": {
+
+    }
+  },
+  "img_081.jpg53551": {
+    "filename": "img_081.jpg",
+    "size": 53551,
+    "regions": [
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 201,
+          "y": 136,
+          "width": 102,
+          "height": 89
+        },
+        "region_attributes": {
+          "class": "mask"
+        }
+      }
+    ],
+    "file_attributes": {
+
+    }
+  },
+  "img_082.jpg4495": {
+    "filename": "img_082.jpg",
+    "size": 4495,
+    "regions": [
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 101,
+          "y": 61,
+          "width": 63,
+          "height": 61
+        },
+        "region_attributes": {
+          "class": "mask"
+        }
+      }
+    ],
+    "file_attributes": {
+
+    }
+  },
+  "img_083.jpg4166": {
+    "filename": "img_083.jpg",
+    "size": 4166,
+    "regions": [
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 75,
+          "y": 47,
+          "width": 189,
+          "height": 119
+        },
+        "region_attributes": {
+          "class": "mask"
+        }
+      }
+    ],
+    "file_attributes": {
+
+    }
+  },
+  "img_084.jpg8367": {
+    "filename": "img_084.jpg",
+    "size": 8367,
+    "regions": [
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 194,
+          "y": 34,
+          "width": 51,
+          "height": 33
+        },
+        "region_attributes": {
+          "class": "mask"
+        }
+      }
+    ],
+    "file_attributes": {
+
+    }
+  },
+  "img_085.jpg6288": {
+    "filename": "img_085.jpg",
+    "size": 6288,
+    "regions": [
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 116,
+          "y": 35,
+          "width": 46,
+          "height": 38
+        },
+        "region_attributes": {
+          "class": "mask"
+        }
+      }
+    ],
+    "file_attributes": {
+
+    }
+  },
+  "img_086.jpg2964": {
+    "filename": "img_086.jpg",
+    "size": 2964,
+    "regions": [
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 107,
+          "y": 84,
+          "width": 61,
+          "height": 51
+        },
+        "region_attributes": {
+          "class": "mask"
+        }
+      }
+    ],
+    "file_attributes": {
+
+    }
+  },
+  "img_087.jpg3950": {
+    "filename": "img_087.jpg",
+    "size": 3950,
+    "regions": [
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 60,
+          "y": 35,
+          "width": 93,
+          "height": 83
+        },
+        "region_attributes": {
+          "class": "mask"
+        }
+      }
+    ],
+    "file_attributes": {
+
+    }
+  },
+  "img_088.jpg6016": {
+    "filename": "img_088.jpg",
+    "size": 6016,
+    "regions": [
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 64,
+          "y": 62,
+          "width": 54,
+          "height": 63
+        },
+        "region_attributes": {
+          "class": "boots"
+        }
+      },
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 175,
+          "y": 71,
+          "width": 55,
+          "height": 60
+        },
+        "region_attributes": {
+          "class": "boots"
+        }
+      }
+    ],
+    "file_attributes": {
+
+    }
+  },
+  "img_089.jpg11250": {
+    "filename": "img_089.jpg",
+    "size": 11250,
+    "regions": [
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 81,
+          "y": 84,
+          "width": 38,
+          "height": 39
+        },
+        "region_attributes": {
+          "class": "boots"
+        }
+      },
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 128,
+          "y": 70,
+          "width": 97,
+          "height": 84
+        },
+        "region_attributes": {
+          "class": "boots"
+        }
+      }
+    ],
+    "file_attributes": {
+
+    }
+  },
+  "img_090.jpg12301": {
+    "filename": "img_090.jpg",
+    "size": 12301,
+    "regions": [
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 0,
+          "y": 95,
+          "width": 49,
+          "height": 75
+        },
+        "region_attributes": {
+          "class": "boots"
+        }
+      },
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 161,
+          "y": 101,
+          "width": 64,
+          "height": 73
+        },
+        "region_attributes": {
+          "class": "boots"
+        }
+      }
+    ],
+    "file_attributes": {
+
+    }
+  },
+  "img_091.jpg6911": {
+    "filename": "img_091.jpg",
+    "size": 6911,
+    "regions": [
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 7,
+          "y": 60,
+          "width": 137,
+          "height": 141
+        },
+        "region_attributes": {
+          "class": "boots"
+        }
+      }
+    ],
+    "file_attributes": {
+
+    }
+  },
+  "img_092.jpg15074": {
+    "filename": "img_092.jpg",
+    "size": 15074,
+    "regions": [
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 74,
+          "y": 72,
+          "width": 125,
+          "height": 55
+        },
+        "region_attributes": {
+          "class": "boots"
+        }
+      },
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 185,
+          "y": 57,
+          "width": 69,
+          "height": 54
+        },
+        "region_attributes": {
+          "class": "boots"
+        }
+      }
+    ],
+    "file_attributes": {
+
+    }
+  },
+  "img_093.jpg6189": {
+    "filename": "img_093.jpg",
+    "size": 6189,
+    "regions": [
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 42,
+          "y": 47,
+          "width": 92,
+          "height": 134
+        },
+        "region_attributes": {
+          "class": "boots"
+        }
+      },
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 128,
+          "y": 14,
+          "width": 113,
+          "height": 164
+        },
+        "region_attributes": {
+          "class": "boots"
+        }
+      }
+    ],
+    "file_attributes": {
+
+    }
+  },
+  "img_094.jpg11373": {
+    "filename": "img_094.jpg",
+    "size": 11373,
+    "regions": [
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 110,
+          "y": 46,
+          "width": 108,
+          "height": 158
+        },
+        "region_attributes": {
+          "class": "boots"
+        }
+      },
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 19,
+          "y": 113,
+          "width": 72,
+          "height": 107
+        },
+        "region_attributes": {
+          "class": "boots"
+        }
+      }
+    ],
+    "file_attributes": {
+
+    }
+  },
+  "img_095.jpg9943": {
+    "filename": "img_095.jpg",
+    "size": 9943,
+    "regions": [
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 88,
+          "y": 71,
+          "width": 147,
+          "height": 75
+        },
+        "region_attributes": {
+          "class": "boots"
+        }
+      }
+    ],
+    "file_attributes": {
+
+    }
+  },
+  "img_096.jpg6173": {
+    "filename": "img_096.jpg",
+    "size": 6173,
+    "regions": [
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 27,
+          "y": 81,
+          "width": 72,
+          "height": 49
+        },
+        "region_attributes": {
+          "class": "boots"
+        }
+      },
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 97,
+          "y": 74,
+          "width": 66,
+          "height": 53
+        },
+        "region_attributes": {
+          "class": "boots"
+        }
+      }
+    ],
+    "file_attributes": {
+
+    }
+  },
+  "img_097.jpg9678": {
+    "filename": "img_097.jpg",
+    "size": 9678,
+    "regions": [
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 84,
+          "y": 92,
+          "width": 41,
+          "height": 75
+        },
+        "region_attributes": {
+          "class": "boots"
+        }
+      },
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 169,
+          "y": 92,
+          "width": 69,
+          "height": 76
+        },
+        "region_attributes": {
+          "class": "boots"
+        }
+      }
+    ],
+    "file_attributes": {
+
+    }
+  },
+  "img_098.jpg8294": {
+    "filename": "img_098.jpg",
+    "size": 8294,
+    "regions": [
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 124,
+          "y": 44,
+          "width": 168,
+          "height": 78
+        },
+        "region_attributes": {
+          "class": "boots"
+        }
+      },
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 56,
+          "y": 34,
+          "width": 99,
+          "height": 35
+        },
+        "region_attributes": {
+          "class": "boots"
+        }
+      }
+    ],
+    "file_attributes": {
+
+    }
+  },
+  "img_099.jpg18271": {
+    "filename": "img_099.jpg",
+    "size": 18271,
+    "regions": [
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 40,
+          "y": 25,
+          "width": 173,
+          "height": 86
+        },
+        "region_attributes": {
+          "class": "boots"
+        }
+      }
+    ],
+    "file_attributes": {
+
+    }
+  },
+  "img_100.jpg15074": {
+    "filename": "img_100.jpg",
+    "size": 15074,
+    "regions": [
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 75,
+          "y": 72,
+          "width": 124,
+          "height": 55
+        },
+        "region_attributes": {
+          "class": "boots"
+        }
+      },
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 182,
+          "y": 54,
+          "width": 82,
+          "height": 54
+        },
+        "region_attributes": {
+          "class": "boots"
+        }
+      }
+    ],
+    "file_attributes": {
+
+    }
+  },
+  "img_101.jpg9172": {
+    "filename": "img_101.jpg",
+    "size": 9172,
+    "regions": [
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 40,
+          "y": 106,
+          "width": 95,
+          "height": 94
+        },
+        "region_attributes": {
+          "class": "boots"
+        }
+      },
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 110,
+          "y": 80,
+          "width": 93,
+          "height": 78
+        },
+        "region_attributes": {
+          "class": "boots"
+        }
+      }
+    ],
+    "file_attributes": {
+
+    }
+  },
+  "img_102.jpg11429": {
+    "filename": "img_102.jpg",
+    "size": 11429,
+    "regions": [
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 65,
+          "y": 141,
+          "width": 36,
+          "height": 47
+        },
+        "region_attributes": {
+          "class": "boots"
+        }
+      },
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 113,
+          "y": 129,
+          "width": 56,
+          "height": 46
+        },
+        "region_attributes": {
+          "class": "boots"
+        }
+      }
+    ],
+    "file_attributes": {
+
+    }
+  },
+  "img_103.jpg9728": {
+    "filename": "img_103.jpg",
+    "size": 9728,
+    "regions": [
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 85,
+          "y": 23,
+          "width": 127,
+          "height": 143
+        },
+        "region_attributes": {
+          "class": "boots"
+        }
+      }
+    ],
+    "file_attributes": {
+
+    }
+  },
+  "img_104.jpg10197": {
+    "filename": "img_104.jpg",
+    "size": 10197,
+    "regions": [
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 3,
+          "y": 40,
+          "width": 163,
+          "height": 80
+        },
+        "region_attributes": {
+          "class": "boots"
+        }
+      }
+    ],
+    "file_attributes": {
+
+    }
+  },
+  "img_105.jpg10176": {
+    "filename": "img_105.jpg",
+    "size": 10176,
+    "regions": [
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 23,
+          "y": 44,
+          "width": 148,
+          "height": 146
+        },
+        "region_attributes": {
+          "class": "boots"
+        }
+      }
+    ],
+    "file_attributes": {
+
+    }
+  },
+  "img_106.jpg133401": {
+    "filename": "img_106.jpg",
+    "size": 133401,
+    "regions": [
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 159,
+          "y": 111,
+          "width": 1012,
+          "height": 495
+        },
+        "region_attributes": {
+          "class": "boots"
+        }
+      }
+    ],
+    "file_attributes": {
+
+    }
+  },
+  "img_107.jpg7509": {
+    "filename": "img_107.jpg",
+    "size": 7509,
+    "regions": [
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 2,
+          "y": 108,
+          "width": 49,
+          "height": 55
+        },
+        "region_attributes": {
+          "class": "boots"
+        }
+      },
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 78,
+          "y": 115,
+          "width": 71,
+          "height": 43
+        },
+        "region_attributes": {
+          "class": "boots"
+        }
+      }
+    ],
+    "file_attributes": {
+
+    }
+  },
+  "img_108.jpg15326": {
+    "filename": "img_108.jpg",
+    "size": 15326,
+    "regions": [
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 112,
+          "y": 96,
+          "width": 133,
+          "height": 63
+        },
+        "region_attributes": {
+          "class": "boots"
+        }
+      },
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 229,
+          "y": 38,
+          "width": 69,
+          "height": 47
+        },
+        "region_attributes": {
+          "class": "boots"
+        }
+      }
+    ],
+    "file_attributes": {
+
+    }
+  },
+  "img_109.jpg10476": {
+    "filename": "img_109.jpg",
+    "size": 10476,
+    "regions": [
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 77,
+          "y": 92,
+          "width": 47,
+          "height": 64
+        },
+        "region_attributes": {
+          "class": "boots"
+        }
+      },
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 20,
+          "y": 124,
+          "width": 25,
+          "height": 32
+        },
+        "region_attributes": {
+          "class": "boots"
+        }
+      }
+    ],
+    "file_attributes": {
+
+    }
+  },
+  "img_110.jpg75357": {
+    "filename": "img_110.jpg",
+    "size": 75357,
+    "regions": [
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 318,
+          "y": 104,
+          "width": 132,
+          "height": 181
+        },
+        "region_attributes": {
+          "class": "boots"
+        }
+      },
+      {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 141,
+          "y": 108,
+          "width": 214,
+          "height": 201
+        },
+        "region_attributes": {
+          "class": "boots"
+        }
+      }
+    ],
+    "file_attributes": {
+
+    }
+  }
+}
