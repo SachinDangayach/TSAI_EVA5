@@ -1,24 +1,26 @@
 # EVA5 Session 12 Assignment by Sachin Dangayach
 
-**ResNet18 for TinyImageNet and Data Preprations for YOLO**
+## ResNet18 for TinyImageNet
 
 **GIT Link for the package**: https://github.com/SachinDangayach/TSAI_EVA5/tree/master/session11
 
 **Collab Link for TinyImageNet Training**: https://colab.research.google.com/drive/1aX_8aenrFAWGhaQ0ohsWyaN-_I7VZZmn?usp=sharing
 
+## Data Preprations for YOLO*
+
 **Collab Link for Data Preparations for YOLO**: https://colab.research.google.com/drive/1aX_8aenrFAWGhaQ0ohsWyaN-_I7VZZmn?usp=sharing
 
-**GIT Link for annotated dataset with 50+ class of masks, boots, hardhats and vests**:
+**GIT Link for annotated dataset with 50+ class of masks, boots, hardhats and vests**: https://github.com/SachinDangayach/TSAI_EVA5/tree/master/session12/dataset/DataSet
 
-**GIT Link for JSON file**:
+**GIT Link for JSON file**: https://github.com/SachinDangayach/TSAI_EVA5/blob/master/session12/dataset/DataSet/s12_dataset.json
 
 
 ## Assignment A: TinyImagenet training
 
 **A. Target**
-> Download this TINY IMAGENET dataset.
-> Train ResNet18 on this dataset (70/30 split) for 50 Epochs. Target 50%+ Validation Accuracy.
-> Submit Results. Of course, you are using your own package for everything.
+1. Download this TINY IMAGENET dataset.
+2. Train ResNet18 on this dataset (70/30 split) for 50 Epochs. Target 50%+ Validation Accuracy.
+3. Submit Results. Of course, you are using your own package for everything.
 
 **B. Results**
 
@@ -51,16 +53,16 @@ I have used one cycle learning with max learning rate of 0.02 and minimum of 0.0
 6. Refer to this tutorial . Find out the best total numbers of clusters. Upload link to your Colab File uploaded to GitHub.
 
 ## Description of Jason-
->1.Key: Example img_001.jpg116338. This is unique key (concatination of image name and image size)
->2. filename: Name of the image file
->3. size: Size of image
->4. regions: It consists of shape_attributes and region_attributes (both described below)
->>1. shape_attributes: It is collection of attributes describing the bonding boxes. Below are the fields.
->>>a. name: There are 6 different options in vgg tool for region selection. As we have selected for rectangular option, value is rect in jason file
->>>b. x: We consider origin as top left corner of image. x is horizontal distance of bounding box top left corner from origin (Image's top left)
->>>c. y: We consider origin as top left corner of image. y is vertical distance of bounding box top left corner from origin (Image's top left)
->>>d. width: Width of bounding box
->>>e. height: Height of bounding box
->>2. region_attributes: It consists of region_attributes. We have only one region attribute named class
->>>a. class: it is one of the four class values (hardhat, mask, boots, vest)
->5. file_attributes: We have not used this attribute and this is empty for all images.
+1. Key: Example img_001.jpg116338. This is unique key (concatination of image name and image size)
+2. filename: Name of the image file
+3. size: Size of image
+4. regions: It consists of shape_attributes and region_attributes (both described below)
+  1. shape_attributes: It is collection of attributes describing the bonding boxes. Below are the fields.
+    1. name: There are 6 different options in vgg tool for region selection. As we have selected for rectangular option, value is rect in jason file
+    2. b. x: We consider origin as top left corner of image. x is horizontal distance of bounding box top left corner from origin (Image's top left)
+    3. c. y: We consider origin as top left corner of image. y is vertical distance of bounding box top left corner from origin (Image's top left)
+    4. width: Width of bounding box
+    5. height: Height of bounding box
+  2. region_attributes: It consists of region_attributes. We have only one region attribute named class
+    1. class: it is one of the four class values (hardhat, mask, boots, vest)
+5. file_attributes: We have not used this attribute and this is empty for all images.
