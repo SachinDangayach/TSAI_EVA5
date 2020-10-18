@@ -32,7 +32,7 @@ Finaly trainset, testset are returned.
 """
 
 # -----------------------------------------------------Main Function which calls everything--------------------------------------------------------------
-def TinyImageNetDataSet(train_split = 70,test_transforms = None,train_transforms = None):
+def TinyImageNetDataSet(train_split = 70, train_transforms = None, test_transforms = None):
 
   down_url  = "http://cs231n.stanford.edu/tiny-imagenet-200.zip"
   download_images(down_url)
@@ -133,45 +133,70 @@ def download_images(url):
       zip_ref.extract(member = file)
     zip_ref.close()
 
-class AlbumentationsDataset(Dataset):
-    """__init__ and __len__ functions are the same as in TorchvisionDataset"""
-    def __init__(self, rimages, labels, transform=None):
-        self.rimages = rimages
-        self.labels = labels
-        self.transform = transform
 
-    def __len__(self):
-        return len(self.rimages)
 
-    def __getitem__(self, idx):
-        label = self.labels[idx]
-        image = self.rimages[idx]
-        if self.transform:
-            augmented = self.transform(image=image)
-            image = augmented['image']
-        return image, label
+# class AlbumentationsDataset(Dataset):
+#     """__init__ and __len__ functions are the same as in TorchvisionDataset"""
+#     def __init__(self, rimages, labels, transform=None):
+#         self.rimages = rimages
+#         self.labels = labels
+#         self.transform = transform
+#
+#     def __len__(self):
+#         return len(self.rimages)
+#
+#     def __getitem__(self, idx):
+#         label = self.labels[idx]
+#         image = self.rimages[idx]
+#         if self.transform:
+#             augmented = self.transform(image=image)
+#             image = augmented['image']
+#         return image, label
+class AlbumentationTransforms:
+  """
+  Helper class to create test and train transforms using Albumentations
+  """
+  def __init__(self, transforms_list=[]):
+    transforms_list.append(AP.ToTensor())
+
+    self.transforms = A.Compose(transforms_list)
+
+
+  def __call__(self, img):
+    img = np.array(img)
+    return self.transforms(image=img)['image']
 
 
 def get_album_transforms(norm_mean,norm_std):
     """get the train and test transform by albumentations"""
-    album_train_transform = A.Compose([
-                                          A.PadIfNeeded(min_height=70, min_width=70, border_mode = 2, always_apply=True,),
-                                          A.RandomCrop(height=64, width=64, always_apply=True),
-                                          A.HorizontalFlip(p=0.5),
-                                          # A.Rotate(limit=30, interpolation=1, border_mode=4, value=None, mask_value=None, always_apply=False, p=0.5),
-                                          A.Normalize(
-                                             mean=norm_mean,
-                                              std=norm_std, ),
-                                          A.Cutout(1, 32, 32, p=0.4),
-                                          AP.transforms.ToTensor()
-                                        ])
+    # album_train_transform = A.Compose([
+    #                                       A.PadIfNeeded(min_height=70, min_width=70, border_mode = 2, always_apply=True,),
+    #                                       A.RandomCrop(height=64, width=64, always_apply=True),
+    #                                       A.HorizontalFlip(p=0.5),
+    #                                       # A.Rotate(limit=30, interpolation=1, border_mode=4, value=None, mask_value=None, always_apply=False, p=0.5),
+    #                                       A.Normalize(
+    #                                          mean=norm_mean,
+    #                                           std=norm_std, ),
+    #                                       A.Cutout(1, 32, 32, p=0.4),
+    #                                       AP.transforms.ToTensor()
+    #                                     ])
+    #
+    # album_test_transform = A.Compose([   A.Normalize(
+    #                                          mean=norm_mean,
+    #                                           std=norm_std, ),
+    #                                       AP.transforms.ToTensor()
+    #                                     ])
+    train_transform = AlbumentationTransforms([
 
-    album_test_transform = A.Compose([   A.Normalize(
-                                             mean=norm_mean,
-                                              std=norm_std, ),
-                                          AP.transforms.ToTensor()
-                                        ])
-    return(album_train_transform,album_test_transform)
+                                      A.HorizontalFlip(p = 0.7),
+                                      A.PadIfNeeded(min_height=70, min_width=70, border_mode=4, value=None, mask_value=None, always_apply=False, p=1.0),
+                                      A.RandomCrop(64, 64, always_apply=False, p=1.0),
+                                      A.Rotate(limit=30, interpolation=1, border_mode=4, value=None, mask_value=None, always_apply=False, p=0.5),
+                                      A.Normalize(mean=norm_mean, std=norm_std),
+                                      A.Cutout(num_holes=1, max_h_size=32,max_w_size = 32,p=0.7)
+                                       ])
+    test_transform = AlbumentationTransforms([A.Normalize(mean=norm_mean, std=norm_std)])
+    return(train_transform,test_transform)
 
 # def get_datasets():
 #     """Extract and transform the data"""
@@ -212,18 +237,3 @@ def get_dataloaders(train_set,test_set,batch_size):
     # test dataloader
     test_loader  = torch.utils.data.DataLoader(test_set, **dataloader_args)
     return(train_loader,test_loader)
-
-
-class AlbumentationTransforms:
-  """
-  Helper class to create test and train transforms using Albumentations
-  """
-  def __init__(self, transforms_list=[]):
-    transforms_list.append(AP.ToTensor())
-
-    self.transforms = A.Compose(transforms_list)
-
-
-  def __call__(self, img):
-    img = np.array(img)
-    return self.transforms(image=img)['image']
