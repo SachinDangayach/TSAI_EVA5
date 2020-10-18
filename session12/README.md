@@ -52,7 +52,7 @@ I have used one cycle learning with max learning rate of 0.02 and minimum of 0.0
 5. Describe the contents of this JSON file in FULL details (you don't need to describe all 10 instances, anyone would work).
 6. Refer to this tutorial . Find out the best total numbers of clusters. Upload link to your Colab File uploaded to GitHub.
 
-## Description of Jason-
+## Description of JSON-
 1. Key: Example img_001.jpg116338. This is unique key (concatenation of image name and image size)
 2. filename: Name of the image file
 3. size: Size of image
