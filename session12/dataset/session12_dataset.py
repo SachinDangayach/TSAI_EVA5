@@ -10,6 +10,7 @@ import requests
 from io import StringIO,BytesIO
 import albumentations.pytorch as AP
 import albumentations as A
+import cv2
 """
 This is used to download the tiny imagenet data set, load them, split to train test , convert to data set format
 TinyImageNetDataSet - This is the main function which calls all all other.
@@ -170,11 +171,11 @@ def get_album_transforms(norm_mean,norm_std):
                                         ])
     return(album_train_transform,album_test_transform)
 
-def get_datasets():
-    """Extract and transform the data"""
-    train_set = torchvision.datasets.CIFAR10(root='./data', train=True,download=True)
-    test_set  = torchvision.datasets.CIFAR10(root='./data', train=False,download=True)
-    return(train_set,test_set)
+# def get_datasets():
+#     """Extract and transform the data"""
+#     train_set = torchvision.datasets.CIFAR10(root='./data', train=True,download=True)
+#     test_set  = torchvision.datasets.CIFAR10(root='./data', train=False,download=True)
+#     return(train_set,test_set)
 
 def trasnform_datasets(train_set, test_set, train_transform, test_transform):
     """Transform the data"""

@@ -73,7 +73,7 @@
 
 2. Best Training Accuracy in 24 epochs: 98.81%
 
-3. Best Test Accuracy in 50 epochs: 93.22 %
+3. Best Test Accuracy in 24 epochs: 93.22 %
 
 
 **C. Analysis**
