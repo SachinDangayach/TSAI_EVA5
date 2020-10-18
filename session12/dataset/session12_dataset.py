@@ -188,9 +188,9 @@ def get_album_transforms(norm_mean,norm_std):
     #                                     ])
     train_transform = AlbumentationTransforms([
                                       A.HorizontalFlip(p = 0.7),
-                                      A.PadIfNeeded(min_height=70, min_width=70, border_mode=4, value=None, always_apply=False, p=1.0),
+                                      A.PadIfNeeded(min_height=70, min_width=70, border_mode=4, always_apply=False, p=1.0),
                                       A.RandomCrop(64, 64, always_apply=False, p=1.0),
-                                      A.Rotate(limit=30, interpolation=1, border_mode=4, value=None, always_apply=False, p=0.5),
+                                      A.Rotate(limit=30, interpolation=1, border_mode=4, always_apply=False, p=0.5),
                                       A.Normalize(mean=norm_mean, std=norm_std),
                                       A.Cutout(num_holes=1, max_h_size=32,max_w_size = 32,p=0.7)
                                        ])
