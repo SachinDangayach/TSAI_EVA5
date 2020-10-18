@@ -11,6 +11,8 @@ from io import StringIO,BytesIO
 import albumentations.pytorch as AP
 import albumentations as A
 import cv2
+from torchvision import transforms
+import random
 """
 This is used to download the tiny imagenet data set, load them, split to train test , convert to data set format
 TinyImageNetDataSet - This is the main function which calls all all other.
@@ -210,3 +212,18 @@ def get_dataloaders(train_set,test_set,batch_size):
     # test dataloader
     test_loader  = torch.utils.data.DataLoader(test_set, **dataloader_args)
     return(train_loader,test_loader)
+
+
+class AlbumentationTransforms:
+  """
+  Helper class to create test and train transforms using Albumentations
+  """
+  def __init__(self, transforms_list=[]):
+    transforms_list.append(AP.ToTensor())
+
+    self.transforms = A.Compose(transforms_list)
+
+
+  def __call__(self, img):
+    img = np.array(img)
+    return self.transforms(image=img)['image']
