@@ -2,17 +2,17 @@
 
 ## ResNet18 for TinyImageNet
 
-**GIT Link for the package**: https://github.com/SachinDangayach/TSAI_EVA5/tree/master/session11
+**GIT Link for the package**: https://github.com/SachinDangayach/TSAI_EVA5/tree/master/session12
 
-**Collab Link for TinyImageNet Training**: https://colab.research.google.com/drive/1aX_8aenrFAWGhaQ0ohsWyaN-_I7VZZmn?usp=sharing
+**Collab Link for TinyImageNet Training**: https://colab.research.google.com/drive/1mrsdwBw-rnQh0nLE09J0Eys2aCHxYUe8?usp=sharing
 
 ## Data Preparations for YOLO
 
-**Collab Link for Data Preparations for YOLO**: https://colab.research.google.com/drive/1aX_8aenrFAWGhaQ0ohsWyaN-_I7VZZmn?usp=sharing
+**Collab Link for Data Preparations for YOLO**: https://colab.research.google.com/drive/1T7htjv1V62imLqpGkTlEEWxnG_xlN6uF?usp=sharing
 
-**GIT Link for annotated dataset with 50+ classes**: https://github.com/SachinDangayach/TSAI_EVA5/tree/master/session12/dataset/DataSet
+**GIT Link for annotated dataset with 50+ classes**: https://github.com/SachinDangayach/TSAI_EVA5/tree/master/session12/assignments/DataSet
 
-**GIT Link for JSON file**: https://github.com/SachinDangayach/TSAI_EVA5/blob/master/session12/dataset/DataSet/s12_dataset.json
+**GIT Link for JSON file**: https://github.com/SachinDangayach/TSAI_EVA5/blob/master/session12/assignments/s12_dataset.json
 
 
 ## Assignment A: TinyImagenet training
@@ -26,13 +26,13 @@
 
 1. Parameters: 11,271,432
 
-2. Best Training Accuracy in 30 epochs: 98.81%
+2. Best Training Accuracy in 30 epochs: 68.19 %
 
-3. Best Test Accuracy in 30 epochs: 93.22 %
+3. Best Test Accuracy in 27 epochs: 54.33 %
 
 **C. Analysis**
 
-I have used one cycle learning with max learning rate of 0.02 and minimum of 0.002. Max LR is reached in 11 epochs. I have used augmentations (horizontal flip, resizing and random cropping, rotation and cutout with normalization) to regularize the training. Model could achieve required accuracy in
+I have used one cycle learning with max learning rate of 0.02 and minimum of 0.002. Max LR is reached in 11 epochs. I have used augmentations (horizontal flip, resizing and random cropping, rotation and cutout with normalization) to regularize the training. Model could achieve required accuracy in 24 epochs
 
 **D. Loss and Accuracy curves**
 
@@ -53,7 +53,7 @@ I have used one cycle learning with max learning rate of 0.02 and minimum of 0.0
 6. Refer to this tutorial . Find out the best total numbers of clusters. Upload link to your Colab File uploaded to GitHub.
 
 ## Description of Jason-
-1. Key: Example img_001.jpg116338. This is unique key (concatination of image name and image size)
+1. Key: Example img_001.jpg116338. This is unique key (concatenation of image name and image size)
 2. filename: Name of the image file
 3. size: Size of image
 4. regions: It consists of shape_attributes and region_attributes (both described below)
@@ -66,3 +66,9 @@ I have used one cycle learning with max learning rate of 0.02 and minimum of 0.0
   2. region_attributes: It consists of region_attributes. We have only one region attribute named class
     1. class: it is one of the four class values (hardhat, mask, boots, vest)
 5. file_attributes: We have not used this attribute and this is empty for all images.
+
+## K-Means clusters
+### K = 3
+![alt text](https://github.com/SachinDangayach/TSAI_EVA5/blob/master/session11/Loss_Accuracy_Plot.png)
+### K = 4
+![alt text](https://github.com/SachinDangayach/TSAI_EVA5/blob/master/session11/Loss_Accuracy_Plot.png)
