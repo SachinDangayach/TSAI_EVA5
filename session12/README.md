@@ -6,11 +6,11 @@
 
 **Collab Link for TinyImageNet Training**: https://colab.research.google.com/drive/1aX_8aenrFAWGhaQ0ohsWyaN-_I7VZZmn?usp=sharing
 
-## Data Preprations for YOLO*
+## Data Preparations for YOLO
 
 **Collab Link for Data Preparations for YOLO**: https://colab.research.google.com/drive/1aX_8aenrFAWGhaQ0ohsWyaN-_I7VZZmn?usp=sharing
 
-**GIT Link for annotated dataset with 50+ class of masks, boots, hardhats and vests**: https://github.com/SachinDangayach/TSAI_EVA5/tree/master/session12/dataset/DataSet
+**GIT Link for annotated dataset with 50+ classes**: https://github.com/SachinDangayach/TSAI_EVA5/tree/master/session12/dataset/DataSet
 
 **GIT Link for JSON file**: https://github.com/SachinDangayach/TSAI_EVA5/blob/master/session12/dataset/DataSet/s12_dataset.json
 
