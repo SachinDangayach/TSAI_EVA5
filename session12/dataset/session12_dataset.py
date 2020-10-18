@@ -152,6 +152,7 @@ class AlbumentationsDataset(Dataset):
 
 def get_album_transforms(norm_mean,norm_std):
     """get the train and test transform by albumentations"""
+    import cv2
     album_train_transform = A.Compose([
                                           A.PadIfNeeded(min_height=70, min_width=70, border_mode = cv2.BORDER_REFLECT, always_apply=True,),
                                           A.RandomCrop(height=64, width=64, always_apply=True),
@@ -177,20 +178,20 @@ def get_album_transforms(norm_mean,norm_std):
 #     test_set  = torchvision.datasets.CIFAR10(root='./data', train=False,download=True)
 #     return(train_set,test_set)
 
-def trasnform_datasets(train_set, test_set, train_transform, test_transform):
-    """Transform the data"""
-    train_set = AlbumentationsDataset(
-                                    rimages= train_set.data,
-                                    labels=train_set.targets,
-                                    transform=train_transform,
-                                    )
-
-    test_set = AlbumentationsDataset(
-                                    rimages= test_set.data,
-                                    labels=test_set.targets,
-                                    transform=test_transform,
-                                    )
-    return(train_set,test_set)
+# def trasnform_datasets(train_set, test_set, train_transform, test_transform):
+#     """Transform the data"""
+#     train_set = AlbumentationsDataset(
+#                                     rimages= train_set.data,
+#                                     labels=train_set.targets,
+#                                     transform=train_transform,
+#                                     )
+#
+#     test_set = AlbumentationsDataset(
+#                                     rimages= test_set.data,
+#                                     labels=test_set.targets,
+#                                     transform=test_transform,
+#                                     )
+#     return(train_set,test_set)
 
 def get_dataloaders(train_set,test_set,batch_size):
     """ Dataloader Arguments & Test/Train Dataloaders - Load part of ETL"""
