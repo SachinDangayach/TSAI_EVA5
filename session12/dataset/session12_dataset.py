@@ -152,9 +152,8 @@ class AlbumentationsDataset(Dataset):
 
 def get_album_transforms(norm_mean,norm_std):
     """get the train and test transform by albumentations"""
-    import cv2
     album_train_transform = A.Compose([
-                                          A.PadIfNeeded(min_height=70, min_width=70, border_mode = cv2.BORDER_REFLECT, always_apply=True,),
+                                          A.PadIfNeeded(min_height=70, min_width=70, border_mode = 2, always_apply=True,),
                                           A.RandomCrop(height=64, width=64, always_apply=True),
                                           A.HorizontalFlip(p=0.5),
                                           A.Rotate(limit=30, interpolation=1, border_mode=4, value=None, mask_value=None, always_apply=False, p=0.5),
