@@ -36,7 +36,7 @@ I have used one cycle learning with max learning rate of 0.02 and minimum of 0.0
 
 **D. Loss and Accuracy curves**
 
-![alt text](https://github.com/SachinDangayach/TSAI_EVA5/blob/master/session11/Loss_Accuracy_Plot.png)
+![alt text](https://github.com/SachinDangayach/TSAI_EVA5/blob/master/session12/Loss_Accuracy_Plot.png)
 
 ## Assignment B: Data Preparations for YOLO
 
