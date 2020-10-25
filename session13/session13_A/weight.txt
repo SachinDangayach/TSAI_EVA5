@@ -1,0 +1,2 @@
+Download the weights and place in this folder
+!wget https://pjreddie.com/media/files/yolov3.weights
