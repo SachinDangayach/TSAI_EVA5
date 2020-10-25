@@ -2,13 +2,18 @@
 
 ## Object Detection Through YOLO
 
-**GIT Link for the package**: https://github.com/SachinDangayach/TSAI_EVA5/tree/master/session13
+**GIT Link for the package**:
+
+https://github.com/SachinDangayach/TSAI_EVA5/tree/master/session13
 
 ## Part 1: Object Detection Through YOLOv3OpenCV
 
-**YOLOv3OpenCV code on Github.**: https://github.com/SachinDangayach/TSAI_EVA5/tree/master/session12/assignments/DataSet
+**YOLOv3OpenCV code on Github.**:
+
+https://github.com/SachinDangayach/TSAI_EVA5/tree/master/session12/assignments/DataSet
 
 **Image annotated by OpenCV YOLO inference**: 📸
+
 ![alt text](https://github.com/SachinDangayach/TSAI_EVA5/blob/master/session13/session13_A/IMG_0013_BB.jpg)
 
 ### Steps-
@@ -22,13 +27,16 @@ https://drive.google.com/file/d/1EqtOpF7cS74C56EaVQoKNkQmpT6_HFL2/view?usp=shari
 
 ## Part 3: Object Detection Through YoloV3 training
 
-**GitHub project**: https://github.com/SachinDangayach/TSAI_EVA5/tree/master/session13/YoloV3
+**GitHub project**:
+https://github.com/SachinDangayach/TSAI_EVA5/tree/master/session13/YoloV3
 
 
-**Colab Link**: https://colab.research.google.com/drive/1Eej5awd6erlSvq7j-znc7a2RWnFFji8I?usp=sharing
+**Colab Link**:
+https://colab.research.google.com/drive/1Eej5awd6erlSvq7j-znc7a2RWnFFji8I?usp=sharing
 
 
-**YouTube video (your object annotated by your YoloV3 trained model)** 🎥  https://www.youtube.com/watch?v=MOcmQjWxyTk
+**YouTube video (your object annotated by your YoloV3 trained model)** 🎥
+https://www.youtube.com/watch?v=MOcmQjWxyTk
 
 ## Steps
 1. Clone the repo https://github.com/theschoolofai/YoloV3
