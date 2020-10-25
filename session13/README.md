@@ -1,74 +1,53 @@
-# EVA5 Session 12 Assignment by Sachin Dangayach
+# EVA5 Session 13 Assignment by Sachin Dangayach
 
-## ResNet18 for TinyImageNet
+## Object Detection Through YOLO
 
-**GIT Link for the package**: https://github.com/SachinDangayach/TSAI_EVA5/tree/master/session12
+**GIT Link for the package**: https://github.com/SachinDangayach/TSAI_EVA5/tree/master/session13
 
-**Collab Link for TinyImageNet Training**: https://colab.research.google.com/drive/1mrsdwBw-rnQh0nLE09J0Eys2aCHxYUe8?usp=sharing
-
-## Data Preparations for YOLO
-
-**Collab Link for Data Preparations for YOLO**: https://colab.research.google.com/drive/1T7htjv1V62imLqpGkTlEEWxnG_xlN6uF?usp=sharing
-
-**GIT Link for annotated dataset with 50+ classes**: https://github.com/SachinDangayach/TSAI_EVA5/tree/master/session12/assignments/DataSet
-
-**GIT Link for JSON file**: https://github.com/SachinDangayach/TSAI_EVA5/blob/master/session12/assignments/s12_dataset.json
+## Part 1: Object Detection Through YOLOv3OpenCV
 
 
-## Assignment A: TinyImagenet training
+**YOLOv3OpenCV code on Github.**: https://github.com/SachinDangayach/TSAI_EVA5/tree/master/session12/assignments/DataSet
 
-**A. Target**
-1. Download this TINY IMAGENET dataset.
-2. Train ResNet18 on this dataset (70/30 split) for 50 Epochs. Target 50%+ Validation Accuracy.
-3. Submit Results. Of course, you are using your own package for everything.
+**Image annotated by OpenCV YOLO inference**: https://github.com/SachinDangayach/TSAI_EVA5/blob/master/session13/session13_A/IMG_0013_BB.jpg
 
-**B. Results**
+### Steps-
+1. Get the code from https://pysource.com/2019/06/27/yolo-object-detection-using-opencv-with-python/
+2. Get the weights from # !wget https://pjreddie.com/media/files/yolov3.weights and config file yolo3.cfg
+3. Run the code and pass the image with object which is there in COCO data set
+4. Save the annotated image
 
-1. Parameters: 11,271,432
+## Part 2: Get the annotated dataset from link below-
+https://drive.google.com/file/d/1EqtOpF7cS74C56EaVQoKNkQmpT6_HFL2/view?usp=sharing
 
-2. Best Training Accuracy in 30 epochs: 68.19 %, in 30 epochs 74.99 %
+## Part 3: Object Detection Through YoloV3 training
 
-3. Best Test Accuracy in 27 epochs: 54.33 %, in 30 epochs 57.49%
+**GitHub project**: https://github.com/SachinDangayach/TSAI_EVA5/tree/master/session13/YoloV3
+**Colab Link**: https://colab.research.google.com/drive/1Eej5awd6erlSvq7j-znc7a2RWnFFji8I?usp=sharing
+**YouTube video (your object annotated by your YoloV3 trained model)** https://www.youtube.com/watch?v=MOcmQjWxyTk
 
-**C. Analysis**
-
-I have used one cycle learning with max learning rate of 0.02 and minimum of 0.002. Max LR is reached in 11 epochs. I have used augmentations (horizontal flip, resizing and random cropping, rotation and cutout with normalization) to regularize the training. Model could achieve required accuracy in 24 epochs
-
-**D. Loss and Accuracy curves**
-
-![alt text](https://github.com/SachinDangayach/TSAI_EVA5/blob/master/session12/Loss_Accuracy_Plot.png)
-
-## Assignment B: Data Preparations for YOLO
-
-## Target
-1. Download 50 (min) images each of people wearing hardhat, vest, mask and boots.
-2. Use these labels (same spelling and small letters):
-    1. hardhat
-    2. vest
-    3. mask
-    4. boots
-3. Use this to annotate bounding boxes around the hardhat, vest, mask and boots.
-4. Download JSON file.
-5. Describe the contents of this JSON file in FULL details (you don't need to describe all 10 instances, anyone would work).
-6. Refer to this tutorial . Find out the best total numbers of clusters. Upload link to your Colab File uploaded to GitHub.
-
-## Description of JSON-
-1. Key: Example img_001.jpg116338. This is unique key (concatenation of image name and image size)
-2. filename: Name of the image file
-3. size: Size of image
-4. regions: It consists of shape_attributes and region_attributes (both described below)
-  1. shape_attributes: It is collection of attributes describing the bonding boxes. Below are the fields.
-    1. name: There are 6 different options in vgg tool for region selection. As we have selected for rectangular option, value is rect in jason file
-    2. b. x: We consider origin as top left corner of image. x is horizontal distance of bounding box top left corner from origin (Image's top left)
-    3. c. y: We consider origin as top left corner of image. y is vertical distance of bounding box top left corner from origin (Image's top left)
-    4. width: Width of bounding box
-    5. height: Height of bounding box
-  2. region_attributes: It consists of region_attributes. We have only one region attribute named class
-    1. class: it is one of the four class values (hardhat, mask, boots, vest)
-5. file_attributes: We have not used this attribute and this is empty for all images.
-
-## K-Means clusters
-### K = 3
-![alt text](https://github.com/SachinDangayach/TSAI_EVA5/blob/master/session12/keq3.png)
-### K = 4
-![alt text](https://github.com/SachinDangayach/TSAI_EVA5/blob/master/session12/keq4.png)
+## Steps
+1. Clone the repo https://github.com/theschoolofai/YoloV3
+2. Go inside data/customdata folder and do the following changes-
+    1. Copy annotated images from step to into images folder
+    2. Copy labels into labels folder
+    3. Create test.txt and train.txt containing the path(for example ./data/customdata/images/img_010.jpg) for the images used for test and train
+    4. Create test.shapes and train.shapes file containing the sizes for test and train images
+    5. Put the classes names in the custom.names file ( hardhat, vest, mask, boots)
+    6. Create custom.data file containing paths for file with below mentioned information
+        classes=4
+        train=data/customdata/train.txt
+        valid=data/customdata/test.txt
+        names=data/customdata/custom.names
+3. In the config folder named cfg/ change the yolo3-custom.cfg file with following values
+        burn_in=16
+        max_batches = 5000
+        policy=steps
+        steps=4000,4500
+        as we are training on three resolution with 4 classes, replace filters=255 to filters=27 at three places and classes = 4
+4.  Download weights 'yolov3-spp-ultralytics.pt' from https://drive.google.com/open?id=1LezFG5g3BCW6iYaV89B2i64cqEUZD7e0
+        as described in README.md and place in weights folder
+5.  Once this setup is done, copy the repo in google drive and mount it to colab. Use the https://colab.research.google.com/drive/1Eej5awd6erlSvq7j-znc7a2RWnFFji8I?usp=sharing to run the code with 50 epochs and batch size 16.
+6. Use ffmpeg to break a downloaded video clip( with hardhat, vests etc.) into images
+7. Once training in complete, use the !python detect.py --conf-thres 0.1 --output out_out --source ppe_images/ppe_input_images/ to get the images in folder
+8. Download and combine the annotated images into a video and upload the video on YouTube and Enjoy :-)
