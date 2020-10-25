@@ -10,7 +10,7 @@ https://github.com/SachinDangayach/TSAI_EVA5/tree/master/session13
 
 **YOLOv3OpenCV code on Github.**:
 
-https://github.com/SachinDangayach/TSAI_EVA5/tree/master/session12/assignments/DataSet
+https://github.com/SachinDangayach/TSAI_EVA5/blob/master/session13/session13_A/s13_A.ipynb
 
 **Image annotated by OpenCV YOLO inference**: 📸
 
