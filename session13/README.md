@@ -8,7 +8,8 @@
 
 **YOLOv3OpenCV code on Github.**: https://github.com/SachinDangayach/TSAI_EVA5/tree/master/session12/assignments/DataSet
 
-**Image annotated by OpenCV YOLO inference**: ![alt text](https://github.com/SachinDangayach/TSAI_EVA5/blob/master/session13/session13_A/IMG_0013_BB.jpg)
+**Image annotated by OpenCV YOLO inference**: 📸
+![alt text](https://github.com/SachinDangayach/TSAI_EVA5/blob/master/session13/session13_A/IMG_0013_BB.jpg)
 
 ### Steps-
 1. Get the code from https://pysource.com/2019/06/27/yolo-object-detection-using-opencv-with-python/
@@ -22,8 +23,12 @@ https://drive.google.com/file/d/1EqtOpF7cS74C56EaVQoKNkQmpT6_HFL2/view?usp=shari
 ## Part 3: Object Detection Through YoloV3 training
 
 **GitHub project**: https://github.com/SachinDangayach/TSAI_EVA5/tree/master/session13/YoloV3
+
+
 **Colab Link**: https://colab.research.google.com/drive/1Eej5awd6erlSvq7j-znc7a2RWnFFji8I?usp=sharing
-**YouTube video (your object annotated by your YoloV3 trained model)** https://www.youtube.com/watch?v=MOcmQjWxyTk
+
+
+**YouTube video (your object annotated by your YoloV3 trained model)** 🎥  https://www.youtube.com/watch?v=MOcmQjWxyTk
 
 ## Steps
 1. Clone the repo https://github.com/theschoolofai/YoloV3
@@ -49,4 +54,4 @@ https://drive.google.com/file/d/1EqtOpF7cS74C56EaVQoKNkQmpT6_HFL2/view?usp=shari
 5.  Once this setup is done, copy the repo in google drive and mount it to colab. Use the https://colab.research.google.com/drive/1Eej5awd6erlSvq7j-znc7a2RWnFFji8I?usp=sharing to run the code with 50 epochs and batch size 16.
 6. Use ffmpeg to break a downloaded video clip( with hardhat, vests etc.) into images
 7. Once training in complete, use the !python detect.py --conf-thres 0.1 --output out_out --source ppe_images/ppe_input_images/ to get the images in folder
-8. Download and combine the annotated images into a video and upload the video on YouTube and Enjoy :-)
+8. Download and combine the annotated images into a video and upload the video on YouTube and Enjoy 😊
