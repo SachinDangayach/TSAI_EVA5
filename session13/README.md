@@ -6,10 +6,9 @@
 
 ## Part 1: Object Detection Through YOLOv3OpenCV
 
-
 **YOLOv3OpenCV code on Github.**: https://github.com/SachinDangayach/TSAI_EVA5/tree/master/session12/assignments/DataSet
 
-**Image annotated by OpenCV YOLO inference**: https://github.com/SachinDangayach/TSAI_EVA5/blob/master/session13/session13_A/IMG_0013_BB.jpg
+**Image annotated by OpenCV YOLO inference**: ![alt text](https://github.com/SachinDangayach/TSAI_EVA5/blob/master/session13/session13_A/IMG_0013_BB.jpg)
 
 ### Steps-
 1. Get the code from https://pysource.com/2019/06/27/yolo-object-detection-using-opencv-with-python/
